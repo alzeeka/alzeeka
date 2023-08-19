@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet" >
+    <link href="css/sec.css" rel="stylesheet" >
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title>Alzeeka Tutorial</title>
+</head>
+<body>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white my-1 ">
+        <div class="container ">
+            <a href="#" class="navbar-brand">Alzeeka Tutorial </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenuu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center " id="mainmenuu">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="navbar-item"><a href="#" class="nav-link">الصفحة الرئيسية</a></li>
+                    <li class="navbar-item"><a href="#services" class="nav-link">خدماتي</a></li>
+                    <li class="navbar-item "><a href="#social" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------------     Hero        -------------- -->
+    <section id="hero" class="bg-dark text-light text-center text-sm-start py-5 ">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="py-5">
+                    <h1 class="display-1">حقق <span class="text-warning">التفوق</span></h1>
+                    <p class="py-3">  تقديم مساعدة وخدمات للطالب مجانية ومدفوعة</p>
+                    <a href="#services"><button class="btn btn-warning " id="open-btn" >ابدأ</button></a>
+
+                </div>
+                <img class="img-fluid w-50" src="img/hero.png" alt="">
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <!---------------     services        -------------- -->
+    <section>
+        <div class="container my-3 " id="services">
+            <div class="row  justify-content-center align-items-sm-center text-sm-center ">
+                <div class="col-md d-flex justify-content-center align-items-center ">
+                    <div class="card bg-dark text-light mb-3" style="width: 25rem;" >
+                        <img src="img/learn.jpg" class="card-img-top" alt="...">
+                        <div  class="card-body ">
+                            <h5 class="card-title text-center ">شرح مقررات وحل الواجبات</h5>
+                            <table class="table table-dark table-striped text-end">
+                              <tr>
+                                
+                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                  فتح
+                                </button></td>
+                                <td>java &diams;</td>
+                              </tr>
+                              <tr>
+                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                  فتح
+                                </button></td>
+                                <td>c++ &diams;</td>
+                              </tr>
+                              <tr>
+                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                  فتح
+                                </button></td>
+                                <td>مقدمة في حل المسائل &diams;</td>
+                              </tr>
+                              <tr> 
+                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                  فتح
+                                </button></td>
+                                <td>تصميم منطقي &diams;</td>
+                              </tr>
+                            </table>
+
+                        </div>
+                            
+                        <a href="#" class="btn btn-primary animated w-50 m-auto my-3">تواصل معي</a>
+                        <div class="modal " id="loginModal" tabindex="-1" role="dialog">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content bg-dark text-light text-end">
+                              <div class="modal-header">
+                                <h5 class="modal-title">تسجيل الدخول</h5>
+                                <div id="error-message" class="text-danger bg-light"></div>
+                                <button type="button"   class="closeButton">
+                                  <span>&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <form >
+                                  <div class="form-group ">
+                                    <label for="username">اسم المستخدم</label>
+                                    <input type="text" class="form-control" id="username" placeholder="أدخل اسم المستخدم">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="password">كلمة المرور</label>
+                                    <input type="password" class="form-control" id="password" placeholder="أدخل كلمة المرور">
+                                  </div>
+                                </form>
+                              </div>
+                              
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal"  >إغلاق</button>
+                                <button type="button" class="btn btn-primary" id="loginButton">تسجيل الدخول</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                 </div>
+            
+                <div class="col-md d-flex  text-center justify-content-center align-items-center">
+                    <div class="card bg-dark text-light mb-3" style="width: 25rem;">
+                        <img src="img/power.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title ">عمل البحوث وعروض البوروينت</h5>
+                          <p class="card-text">بحوث دقيقة- عروض بوربوينت احترافية</p>
+                          <a href="#" class="btn btn-primary">تواصل معي</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-flex justify-content-center align-items-center text-center">
+                    <div class="card bg-dark text-light mb-3" style="width: 25rem;">
+                        <img src="img/design.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">عمل تصاميم</h5>
+                          <p class="card-text">تهنئات - بوسترات - سيرة ذاتية - فيديوهات</p>
+                          <a href="#" class="btn btn-primary">تواصل معي</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---------------     Faq        -------------- -->
+    <section id="faq" class="py-5">
+        <div class="container text-end ">
+            <h2 class="text-center mb-3">الأسئلة الشائعة</h2>
+            <div class="accordion " id="accordionExample">
+                <div class="accordion-item bg-dark text-light">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span class="">من أنت ؟</span>
+                      
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body ">
+                      <strong>أنا اسمي زكريا  </strong> 
+                        بكالوريس هندسة شبكات لدي خبرة ومعرفة  في البرمجة 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-dark text-light">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      كيف يعني تقدم خدمات مجانية وخدمات مدفوعة ؟
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong class="text-danger">خدمات مجانية </strong> مثلا معك سؤال معين او مشكلة او استفسار معين طيب من عيوني اساعدك
+                      <br><br><strong class="text-danger">خدمات مدفوعة </strong> مثل الخدمات الي عارضها فوق شروحات وواجبات ...الخ
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-dark text-light">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      طيب ودي خدمة بس والله حاليا ما معي فلوس , يمديك تساعدني ؟ 
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>عادي ما في مشكلة بنتظر لين الله يفتح عليك</strong> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+    </section>
+
+    
+
+
+
+    <!---------------     Faq        -------------- -->
+
+    <footer class="footer bg-dark text-light">
+      <div class="container text-center">
+          <div class="row">  
+              <div class="col-md-6" id="social">
+                  <h3>تواصل معنا</h3><hr>
+                  
+                  <p>للتواصل والاستفسار</p>
+                  <div class="social-media">
+                    <a href="https://www.snapchat.com/add/n2023z_2?share_id=KlFJ_9Bbu-0&locale=en-US"><i class="fab fa-snapchat fa-2x bg-light mx-2 " style="color: #f5d103;border-radius: 5px;"></i></a>
+                    <a href="https://wa.me/967714291911"><i class="fab fa-whatsapp fa-2x mx-2" style="color: #ffffff;border-radius: 5px;background: yellowgreen;"></i></a>
+                    <a href="https://instagram.com/zizoalzeeka?igshid=YWYwM2I1ZDdmOQ=="><i class="fab fa-instagram fa-2x mx-2" style="color: #ff00d4;border-radius: 5px;background: rgb(255, 255, 255);"></i></a>
+                    <a href="#" class="scroll-to-top bg-warning text-dark p-2 my-3 rounded-circle " style="position: absolute;right: 5px;" >
+                      <i class="fas fa-arrow-up" ></i>
+                    </a>
+                      
+                  </div><hr>
+                  
+              </div><br>
+          </div>
+      </div>
+    </footer>
+
+
+<script src="js/main.js"></script> 
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/main2.js"></script>
+
+</body>
+</html>

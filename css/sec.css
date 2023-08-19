@@ -1,0 +1,20 @@
+.dw{
+    color: #f5f103;border-radius: 5px;text-decoration: none;
+}
+#open-btn{
+
+  
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+  }
+        @keyframes example {
+    from {}
+    to {background-color: rgb(255, 208, 0);
+    border-radius: 20px;
+   
+        
+        
+    
+    }}
