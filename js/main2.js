@@ -2,10 +2,53 @@ $(document).ready(function() {
     $('.open-btn').click(function() {
       $('#loginModal').modal('show');
     });
+   
   
     $('.closeButton').click(function() {
       $('#loginModal').modal('hide');
     });
+
+    $('.java').click(function() {
+      $('#you_java iframe').attr('src', 'https://www.youtube.com/embed/d9xdTuvci88');
+      $('#you_java').modal('show');
+    });
+    
+    $('.c_plus').click(function() {
+      $('#you_c iframe').attr('src', '');
+      $('#you_c').modal('show');
+    });
+    $('.intro_m').click(function() {
+      $('#you_intro iframe').attr('src', '');
+      $('#you_intro').modal('show');
+    });
+    $('.logic_m').click(function() {
+      $('#you_logic iframe').attr('src', '');
+      $('#you_logic').modal('show');
+    });
+    
+    
+    
+    $('.closeButton').click(function() {
+      $('#you_java').modal('hide');
+      $('#you_java iframe').attr('src', '');
+      $('#you_c').modal('hide');
+      $('#you_c iframe').attr('src', '');
+      $('#you_intro').modal('hide');
+      $('#you_intro iframe').attr('src', '');
+      $('#you_logic').modal('hide');
+      $('#you_logic iframe').attr('src', '');
+    });
+
+
+    
+   
+    
+    function stopVideo() {
+      var iframe = document.getElementById('you');
+      var videoUrl = iframe.getAttribute('src');
+      iframe.setAttribute('src', '');
+      iframe.setAttribute('src', videoUrl);
+    }
   
   
     $('#loginButton').click(function() {
