@@ -68,25 +68,46 @@
                             <table class="table table-dark table-striped text-end">
                               <tr>
                                 
-                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                <td> 
+                                  <button type="button" id="open-btn" class="btn-light java p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
+                                    شرح تجريبي
+                                  </button>
+                                  
+                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
                                   فتح
-                                </button></td>
+                                </button>
+                                
+                              
+                              </td>
                                 <td>java &diams;</td>
                               </tr>
                               <tr>
-                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                <td> 
+                                  <button type="button" id="open-btn" class="btn-light c_plus p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
+                                    شرح تجريبي
+                                  </button>
+                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
                                   فتح
                                 </button></td>
                                 <td>c++ &diams;</td>
                               </tr>
                               <tr>
-                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                <td> 
+                                  <button type="button" id="open-btn" class="btn-light intro_m p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
+                                    شرح تجريبي
+                                  </button>
+                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
                                   فتح
                                 </button></td>
                                 <td>مقدمة في حل المسائل &diams;</td>
                               </tr>
                               <tr> 
-                                <td> <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
+                                <td> 
+                                  <button type="button" id="open-btn" class="btn-light logic_m p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
+                                    شرح تجريبي
+                                  </button>
+                                  
+                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
                                   فتح
                                 </button></td>
                                 <td>تصميم منطقي &diams;</td>
@@ -96,6 +117,19 @@
                         </div>
                             
                         <a href="https://wa.me/967714291911" class="btn btn-primary animated w-50 m-auto my-3">تواصل معي</a>
+
+
+
+
+
+
+
+
+
+
+
+                        <!--------------------------------                 dialog                             -------------------------------->
+                        <!--------------------------------                 dialog                             -------------------------------->
                         <div class="modal " id="loginModal" tabindex="-1" role="dialog">
                           <div class="modal-dialog" role="document">
                             <div class="modal-content bg-dark text-light text-end">
@@ -126,10 +160,107 @@
                             </div>
                           </div>
                         </div>
+
+
+                        <div class="modal" id="you_java" tabindex="-1" role="dialog">
+                          <div class="modal-dialog" role="document">
+                              <div class="modal-content bg-dark text-light text-end">
+                                  <div class="modal-header">
+                                      <h5 class="modal-title">شرح تجريبي</h5>
+                                      <div id="error-message" class="text-danger bg-light"></div>
+                                      <button type="button" class="closeButton">
+                                          <span>&times;</span>
+                                      </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/d9xdTuvci88"
+                                     title="YouTube video player" frameborder="0" 
+                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                     <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
+                                    </div>
+                                    </div>
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <div class="modal" id="you_c" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content bg-dark text-light text-end">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">شرح تجريبي</h5>
+                                    <div id="error-message" class="text-danger bg-light"></div>
+                                    <button type="button" class="closeButton">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                  <iframe width="100%" height="315" src="" 
+                                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+
+
+                    <div class="modal" id="you_intro" tabindex="-1" role="dialog">
+                      <div class="modal-dialog" role="document">
+                          <div class="modal-content bg-dark text-light text-end">
+                              <div class="modal-header">
+                                  <h5 class="modal-title">شرح تجريبي</h5>
+                                  <div id="error-message" class="text-danger bg-light"></div>
+                                  <button type="button" class="closeButton">
+                                      <span>&times;</span>
+                                  </button>
+                              </div>
+                              <div class="modal-body">
+                                  <iframe width="100%" height="315" src="" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                  <div class="modal" id="you_logic" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content bg-dark text-light text-end">
+                            <div class="modal-header">
+                                <h5 class="modal-title">شرح تجريبي</h5>
+                                <div id="error-message" class="text-danger bg-light"></div>
+                                <button type="button" class="closeButton">
+                                    <span>&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="100%" height="315" src="" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                       
+                          
+                   
+                      </div>
                     
                  </div>
             
+
+
+                 <!--------------------------------                 2                             -------------------------------->
+
+                 <!--------------------------------                 2                             -------------------------------->
                 <div class="col-md d-flex  text-center justify-content-center align-items-center">
                     <div class="card bg-dark text-light mb-3" style="width: 25rem;">
                         <img src="img/power.jpg" class="card-img-top" alt="...">
@@ -153,6 +284,34 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
