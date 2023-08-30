@@ -18,7 +18,7 @@ $(document).ready(function() {
       $('#you_c').modal('show');
     });
     $('.intro_m').click(function() {
-      $('#you_intro iframe').attr('src', 'https://www.youtube.com/embed/Xh1vhtdP83A?si=uyFe83TVY3Z9_DuV');
+      $('#you_intro iframe').attr('src', '');
       $('#you_intro').modal('show');
     });
     $('.logic_m').click(function() {
@@ -65,6 +65,11 @@ $(document).ready(function() {
         // إنشاء ملف تعريف الارتباط
         document.cookie = 'username=' + username + '; expires=30; path=/';
         window.location.href = 'c.html';
+      }
+      else if (username === 'hail2023' && password === 'java') {
+        // إنشاء ملف تعريف الارتباط
+        document.cookie = 'username=' + username + '; expires=30; path=/';
+        window.location.href = 'java_hail.html';
       }
       else if (username === 'intro' && password === 'intro002') {
         // إنشاء ملف تعريف الارتباط
