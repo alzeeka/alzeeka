@@ -18,7 +18,7 @@ $(document).ready(function() {
       $('#you_c').modal('show');
     });
     $('.intro_m').click(function() {
-      $('#you_intro iframe').attr('src', '');
+      $('#you_intro iframe').attr('src', 'https://www.youtube.com/embed/Xh1vhtdP83A?si=pDIT-SLUCpNH-Ugp');
       $('#you_intro').modal('show');
     });
     $('.logic_m').click(function() {
