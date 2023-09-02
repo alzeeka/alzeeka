@@ -87,6 +87,22 @@ $(document).ready(function() {
     });
 
 
+    var theoreticalButton = document.querySelector("#open-btn button:first-child");
+    var practicalButton = document.querySelector("#open-btn button:last-child");
+    var theoreticalSection = document.getElementById("n");
+    var practicalSection = document.getElementById("a");
+
+    theoreticalButton.addEventListener("click", function () {
+        theoreticalSection.style.display = "block";
+        practicalSection.style.display = "none";
+    });
+
+    practicalButton.addEventListener("click", function () {
+        theoreticalSection.style.display = "none";
+        practicalSection.style.display = "block";
+    });
+
+
 
 
     
