@@ -1,125 +1,196 @@
-$(document).ready(function() {
-  $('.open-btn').click(function() {
-    $('#loginModal').modal('show');
-  });
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="css/main.css" rel="stylesheet" >
+    <link href="css/sec.css" rel="stylesheet" >
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title>Alzeeka Tutorial</title>
+</head>
+<body>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white my-1 ">
+        <div class="container ">
+            <a href="#" class="navbar-brand">Alzeeka Tutorial </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenuu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center " id="mainmenuu">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="navbar-item"><a href="index.html" class="nav-link">الصفحة الرئيسية</a></li>
+                    <li class="navbar-item"><a href="index.html#services" class="nav-link">خدماتي</a></li>
+                    <li class="navbar-item "><a href="#social" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------------     Hero        -------------- -->
+    <section id="hero" class="bg-dark text-light text-center text-sm-start py-5 ">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="py-5">
+                    <h1 class="display-1 "><span class="text-warning ">Java</span> مقرر </h1>
+                    <p class="py-3">  شرح مقرر الجافا وحل الواجبات وعمل ملخصات</p>
+                    <a href="#start"><button class="btn btn-warning " id="open-btn" >ابدأ</button></a>
+
+                </div>
+                <img class="img-fluid w-50" src="img/java.png" alt="">
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <div class="d-flex justify-content-center align-items-center m-2 bg-dark " id="open-btn"> 
+        <button class="btn btn-primary m-3" >شروحات النظري</button>
+        <button class="btn btn-success m-3" >شروحات العملي</button>
+    </div>
+
+
+
+    <!---------------     start        -------------- -->
+    <section>
+        <div class="container my-3 bg-secondary" id="start">
+            
+            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="n">
+                <h5 class="text-light text-center bg-primary py-2 ">شروحات الجانب النظري</h5>
+              <div class="col-md d-flex  text-center justify-content-center align-items-center">
+                    <div class="card bg-dark text-light mb-3" style="width: 26.5rem;">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/FqwE-bMpwV4?si=q-aKFHmykGBW-iIr" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                   
+                        
+                        
+                        
+                          <div class="card-body ">
+                          <h5 class="card-title "> chapter 1 introduction to java</h5><hr>
+                          <h1 class="card-text text-warning far fa-hand-point-down"> الملحقات </h1><hr>
+                            
+                            <a href="pdf/java/A/chapter1.pdf" class="dw" ><i class="fas fa-cloud-download-alt d-block mb-3 " > chapter 1 </i></a>
+                            <a href="pdf/java/A/chapter1m.pdf" class="dw" ><i class="fas fa-cloud-download-alt d-block mb-3 " > chapter 1 مترجم</i></a>
+                            <a href="pdf/java/A/chapter1a.pdf" class="dw" ><i class="fas fa-cloud-download-alt d-block mb-3 " > اسئلة  </i></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md d-flex  text-center justify-content-center align-items-center">
+                    <div class="card bg-dark text-light mb-3" style="width: 26.5rem;">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/_S2xIfOqapo?si=ZI9M_xTXhA-Yl90W" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                     
+                        
+                        
+                        
+                          <div class="card-body ">
+                          <h5 class="card-title ">chapter 1.2 Variables in java</h5><hr>
+                          <h1 class="card-text text-warning far fa-hand-point-down"> الملحقات </h1><hr>
+                            
+                            
+                            <a href="pdf/java/A/chapter1_2a.pdf" class="dw" ><i class="fas fa-cloud-download-alt d-block mb-3 " > اسئلة اختيارات </i></a>
+                        </div>
+                      </div>
+                </div>
+
+
+
+            
+
+               
+            </div>
+            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="a">
+                <h5 class="text-light text-center btn-success py-2 ">شروحات الجانب العملي</h5>
+                <div class="col-md d-flex  text-center justify-content-center align-items-center">
+                    <!-- <div class="card bg-dark text-light mb-3" style="width: 26.5rem;">
+                         <iframe width="100%" height="315" src="" title="YouTube video player" frameborder="0" 
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                                    
+                         
+                         
+                         
+                           <div class="card-body ">
+                               <h5 class="card-title ">lectuer 1 Getting Started</h5><hr>
+                               <h1 class="card-text text-warning far fa-hand-point-down"> الملحقات </h1><hr>
+                                 
+                                 <a href="pdf/java/hail/lectuer.pdf" class="dw" ><i class="fas fa-cloud-download-alt d-block mb-3 " > lectuer 1 </i></a>
+                                 <a href="pdf/java/hail/lectuer1m.pdf" class="dw" ><i class="fas fa-cloud-download-alt d-block mb-3 " > lectuer 1 مترجم</i></a>
+                                 <a href="pdf/java/hail/lectuer1a.pdf" class="dw" ><i class="fas fa-cloud-download-alt d-block mb-3 " > اسئلة  </i></a>
+                             </div>
+                       </div>-->
+                 </div>
  
-
-  $('.closeButton').click(function() {
-    $('#loginModal').modal('hide');
-  });
-
-  $('.java').click(function() {
-    $('#you_java iframe').attr('src', 'https://www.youtube.com/embed/d9xdTuvci88');
-    $('#you_java').modal('show');
-  });
-  
-  $('.c_plus').click(function() {
-    $('#you_c iframe').attr('src', 'https://www.youtube.com/embed/wVI9eefqSZs?si=cv_WJOQ8JpPF59Yj');
-    $('#you_c').modal('show');
-  });
-  $('.intro_m').click(function() {
-    $('#you_intro iframe').attr('src', 'https://www.youtube.com/embed/Xh1vhtdP83A?si=pDIT-SLUCpNH-Ugp');
-    $('#you_intro').modal('show');
-  });
-  $('.logic_m').click(function() {
-    $('#you_logic iframe').attr('src', '');
-    $('#you_logic').modal('show');
-  });
-  
-  
-  
-  $('.closeButton').click(function() {
-    $('#you_java').modal('hide');
-    $('#you_java iframe').attr('src', '');
-    $('#you_c').modal('hide');
-    $('#you_c iframe').attr('src', '');
-    $('#you_intro').modal('hide');
-    $('#you_intro iframe').attr('src', '');
-    $('#you_logic').modal('hide');
-    $('#you_logic iframe').attr('src', '');
-  });
-
-
-  
  
-  
-  function stopVideo() {
-    var iframe = document.getElementById('you');
-    var videoUrl = iframe.getAttribute('src');
-    iframe.setAttribute('src', '');
-    iframe.setAttribute('src', videoUrl);
+ 
+             
+ 
+                
+            </div>
+
+
+            
+        </div>
+       
+    </section>
+
+
+
+    <footer class="footer bg-dark text-light">
+      <div class="container text-center">
+          <div class="row">  
+              <div class="col-md-6" id="social">
+                  <h3>تواصل معنا</h3><hr>
+                  
+                  <p>للتواصل والاستفسار</p>
+                  <div class="social-media">
+                    <a href="https://www.snapchat.com/add/n2023z_2?share_id=KlFJ_9Bbu-0&locale=en-US"><i class="fab fa-snapchat fa-2x bg-light mx-2 " style="color: #f5d103;border-radius: 5px;"></i></a>
+                    <a href="https://wa.me/967714291911"><i class="fab fa-whatsapp fa-2x mx-2" style="color: #ffffff;border-radius: 5px;background: yellowgreen;"></i></a>
+                    <a href="https://instagram.com/zizoalzeeka?igshid=YWYwM2I1ZDdmOQ=="><i class="fab fa-instagram fa-2x mx-2" style="color: #ff00d4;border-radius: 5px;background: rgb(255, 255, 255);"></i></a>
+                    <a href="#" class="scroll-to-top bg-warning text-dark p-2 my-3 rounded-circle " style="position: absolute;right: 5px;" >
+                      <i class="fas fa-arrow-up" ></i>
+                    </a>
+                      
+                  </div><hr>
+                  
+              </div><br>
+          </div>
+      </div>
+    </footer>
+
+
+<script src="js/main.js"></script> 
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/main2.js"></script>
+<script>
+    function getCookie(name) {
+    var cookieName = name + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var cookies = decodedCookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i].trim();
+      if (cookie.indexOf(cookieName) === 0) {
+        return cookie.substring(cookieName.length, cookie.length);
+      }
+    }
+    return null;
   }
 
+  // التحقق من حالة تسجيل الدخول
+  var isLoggedIn = (getCookie('username') !== null);
+  if (!isLoggedIn) {
+    window.location.href = 'index.html'; // توجيه المستخدم إلى صفحة تسجيل الدخول إذا لم يكن مسجل الدخول
+  }
+</script>
 
-  $('#loginButton').click(function() {
-    var username = $('#username').val();
-    var password = $('#password').val();
-    var errorMessage = $('#error-message');
-
-    if (username === 'alzeeka' && password === 'java') {
-      // إنشاء ملف تعريف الارتباط
-      document.cookie = 'username=' + username + '; expires=30; path=/';
-      window.location.href = 'java.html';
-    } 
-    else if (username === 'programming1' && password === 'student') {
-      // إنشاء ملف تعريف الارتباط
-      document.cookie = 'username=' + username + '; expires=30; path=/';
-      window.location.href = 'c.html';
-    }
-    else if (username === 'hail2023' && password === 'java') {
-      // إنشاء ملف تعريف الارتباط
-      document.cookie = 'username=' + username + '; expires=30; path=/';
-      window.location.href = 'java_hail.html';
-    }
-    else if (username === 'intro' && password === 'intro002') {
-      // إنشاء ملف تعريف الارتباط
-      document.cookie = 'username=' + username + '; expires=30; path=/';
-      window.location.href = 'intro.html';
-    }
-    else if (username === 'logic' && password === 'logic02') {
-      // إنشاء ملف تعريف الارتباط
-      document.cookie = 'username=' + username + '; expires=30; path=/';
-      window.location.href = 'logic.html';
-    }
-    else {
-      errorMessage.text('اسم المستخدم أو كلمة المرور غير صحيحة');
-    }
-  });
-
-
-  var theoreticalButton = document.querySelector("#open-btn button:first-child");
-  var practicalButton = document.querySelector("#open-btn button:last-child");
-  var assignmentsButton = document.querySelector("#open-btn button:nth-child(2)");
-  var assignmentsSection = document.getElementById("w");
-  var theoreticalSection = document.getElementById("n");
-  var practicalSection = document.getElementById("a");
-  
-
-  theoreticalButton.addEventListener("click", function () {
-      theoreticalSection.style.display = "block";
-      practicalSection.style.display = "none";
-      assignmentsSection.style.display = "none";
-      
-  });
-
-  practicalButton.addEventListener("click", function () {
-      theoreticalSection.style.display = "none";
-      practicalSection.style.display = "block";
-      assignmentsSection.style.display = "none";
-      
-      
-  });
-  
-
-assignmentsButton.addEventListener("click", function () {
-    theoreticalSection.style.display = "none";
-    practicalSection.style.display = "none";
-    assignmentsSection.style.display = "block";
-});
-  
-
-
-
-
-  
-});
+</body>
+</html>
