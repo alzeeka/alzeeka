@@ -55,9 +55,9 @@
     </section>
 
     <div class="d-flex justify-content-center align-items-center m-2 bg-dark " id="open-btn"> 
-        <button class="btn btn-primary m-3" >شروحات النظري</button>
-        <button class="btn btn-warning m-3" >شروحات الواجبات والمراجعات</button>
-        <button class="btn btn-success m-3" >شروحات العملي</button>
+        <button class="btn btn-primary m-3 text-sm" onclick="hideDiv1()" > النظري</button>
+        <button class="btn btn-warning m-3" onclick="hideDiv2()"> الواجبات والمراجعات</button>
+        <button class="btn btn-success m-3" onclick="hideDiv3()"> العملي</button>
     </div>
 
 
@@ -66,7 +66,7 @@
     <section>
         <div class="container my-3 bg-secondary" id="start">
             
-            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="n">
+            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="myDiv1" >
                 <h5 class="text-light text-center bg-primary py-2 ">شروحات الجانب النظري</h5>
                <div class="col-md d-flex  text-center justify-content-center align-items-center">
                     <div class="card bg-dark text-light mb-3" style="width: 26.5rem;">
@@ -114,8 +114,20 @@
                 
             </div>
 
+            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="myDiv2">
+                <h5 class="text-center btn-warning py-2 ">شروحات الواجبات والمراجعات </h5>
+                
+                    
+ 
+ 
+ 
+             
+ 
+                
+            </div>
 
-            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="a">
+
+            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="myDiv3">
                 <h5 class="text-light text-center btn-success py-2 ">شروحات الجانب العملي</h5>
                 
                 <div class="col-md d-flex  text-center justify-content-center align-items-center">
@@ -180,17 +192,7 @@
             </div>
 
 
-            <div class="row d justify-content-center align-items-sm-center text-sm-center " id="w">
-                <h5 class="text-center btn-warning py-2 ">شروحات الواجبات والمراجعات </h5>
-                
-                    
- 
- 
- 
-             
- 
-                
-            </div>
+            
 
 
 
@@ -227,7 +229,35 @@
           </div>
       </div>
     </footer>
-
+    <script>
+        function hideDiv1() {
+        var div1 = document.getElementById("myDiv1");
+        var div2 = document.getElementById("myDiv2");
+        var div3 = document.getElementById("myDiv3");
+        div1.style.display = "block";
+        div2.style.display = "none";
+        div3.style.display = "none";
+        
+      }
+      function hideDiv2() {
+        var div1 = document.getElementById("myDiv1");
+        var div2 = document.getElementById("myDiv2");
+        var div3 = document.getElementById("myDiv3");
+        div1.style.display = "none";
+        div2.style.display = "block";
+        div3.style.display = "none";
+        
+      }
+      function hideDiv3() {
+        var div1 = document.getElementById("myDiv1");
+        var div2 = document.getElementById("myDiv2");
+        var div3 = document.getElementById("myDiv3");
+        div1.style.display = "none";
+        div2.style.display = "none";
+        div3.style.display = "block";
+        
+      }
+    </script>
 
 <script src="js/main.js"></script> 
 
