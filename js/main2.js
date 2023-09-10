@@ -66,7 +66,7 @@ $(document).ready(function() {
       document.cookie = 'username=' + username + '; expires=30; path=/';
       window.location.href = 'c.html';
     }
-    else if ((username === 'hail2023' && password === 'java') || (username === 'hhh' && password === '123')) {
+    else if (username === 'hail2023' && password === 'java') {
       // إنشاء ملف تعريف الارتباط
       document.cookie = 'username=' + username + '; expires=30; path=/';
       window.location.href = 'java_hail.html';
