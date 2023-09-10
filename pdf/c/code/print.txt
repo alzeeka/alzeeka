@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+	
+	cout<<"ID              name"<<endl;
+	cout<<"_____________________"<<endl;
+	cout<<"1              ahmed"<<endl;
+	cout<<"2              zyad"<<endl;
+	cout<<"3            mohammed"<<endl;
+	cout<<"4              khaled"<<endl;
+	
+	
+	
+	return 0;
+}
