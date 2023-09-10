@@ -56,7 +56,7 @@ $(document).ready(function() {
     var password = $('#password').val();
     var errorMessage = $('#error-message');
 
-    if (username === 'alzeeka' && password === 'java') {
+    if ((username === 'alzeeka' && password === 'java') || (username === 'jjj' && password === '123')) {
       // إنشاء ملف تعريف الارتباط
       document.cookie = 'username=' + username + '; expires=30; path=/';
       window.location.href = 'java.html';
@@ -66,7 +66,7 @@ $(document).ready(function() {
       document.cookie = 'username=' + username + '; expires=30; path=/';
       window.location.href = 'c.html';
     }
-    else if (username === 'hail2023' && password === 'java') {
+    else if ((username === 'hail2023' && password === 'java') || (username === 'hhh' && password === '123')) {
       // إنشاء ملف تعريف الارتباط
       document.cookie = 'username=' + username + '; expires=30; path=/';
       window.location.href = 'java_hail.html';
