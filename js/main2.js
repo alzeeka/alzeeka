@@ -56,7 +56,7 @@ $(document).ready(function() {
     var password = $('#password').val();
     var errorMessage = $('#error-message');
 
-    if ((username === 'alzeeka' && password === 'java') || (username === 'jjj' && password === '123')) {
+    if (username === 'alzeeka' && password === 'java') {
       // إنشاء ملف تعريف الارتباط
       document.cookie = 'username=' + username + '; expires=30; path=/';
       window.location.href = 'java.html';
@@ -71,6 +71,31 @@ $(document).ready(function() {
       document.cookie = 'username=' + username + '; expires=30; path=/';
       window.location.href = 'java_hail.html';
     }
+
+  else if (username === 'hhh' && password === '123') {
+  // إنشاء ملف تعريف الارتباط
+  document.cookie = 'username=' + username + '; expires=30; path=/';
+
+  var currentTime = new Date();
+  var logoutTime = new Date(currentTime.getTime() + 5 * 60 * 1000); // إضافة خمس دقائق للوقت الحالي
+
+  // تأجيل تنفيذ الخروج إلى وقت الخروج المحدد
+  setTimeout(function() {
+    // حذف ملف تعريف الارتباط
+    document.cookie = 'username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+
+    // إعادة توجيه المستخدم إلى صفحة تسجيل الدخول
+    window.location.href = 'login.html';
+  }, logoutTime - currentTime); // الفرق بين وقت الخروج والوقت الحالي
+
+  window.location.href = 'java_hail.html';
+}
+
+
+
+
+
+      
     else if (username === 'intro' && password === 'intro002') {
       // إنشاء ملف تعريف الارتباط
       document.cookie = 'username=' + username + '; expires=30; path=/';
