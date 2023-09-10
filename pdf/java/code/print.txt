@@ -1,0 +1,14 @@
+package lab2;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("ID              name");
+		System.out.println("_____________________");
+		System.out.println("1              ahmed ");
+		System.out.println("2              zyad ");
+		System.out.println("3             mohammed ");
+		System.out.println("3              khaled ");
+	
+	}
+}
