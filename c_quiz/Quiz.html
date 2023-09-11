@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/main.css" rel="stylesheet" >
+    <link href="../css/sec.css" rel="stylesheet" >
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  
+    <title> Alzeeka Tutorial , برمجة , تصميم , تعليم</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNxYmmXCn-By0bXjQ5X1F58P8JiikrP13ZjA&usqp=CAU"/>
+  </head>
+
+<body>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white my-1 ">
+        <div class="container ">
+            <a href="#" class="navbar-brand">Alzeeka Tutorial </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenuu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center " id="mainmenuu">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="navbar-item"><a href="../index.html" class="nav-link">الصفحة الرئيسية</a></li>
+                    <li class="navbar-item"><a href="../index.html#services" class="nav-link">خدماتي</a></li>
+                    <li class="navbar-item "><a href="#social" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+<!------ Quiz Box Starts ------>
+<section class="quiz bg-secondary text-light">
+    <div class="quizh bg-dark">
+        <h1 class="text-warning text-center py-5  ">Java Quiz <img src="https://cdn-icons-png.flaticon.com/128/10648/10648040.png?uid=R70467370&ga=GA1.1.1173120823.1692886609" width="50px" alt=""></h1>
+        <hr><p id="timer" class="text-center text-warning"><span id="demo"></span> : الوقت المتبقي </p><hr>
+    </div>
+
+    <section class="quizbox">
+        <div class="container2 px-2">
+            <div class="col quebox mb-5">
+                <h5 class="questiontext " id="questionBox">
+                    1. Lorem ipsum dolor sit amet, consectetur adipisicing elit Debitis?
+                </h5>
+            </div>
+           <div class="d-flex flex-column bd-highlight mb-5 mx-5">
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="a" required> <span class="text">Test1</span>
+            </label>
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="b"> <span class="text">Test2</span>
+            </label>
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="c"> <span class="text">Test3</span>
+            </label>
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="d"> <span class="text">Test4</span>
+            </label>
+           </div>
+
+           <hr>
+        <div class="but text-center bg-light ">
+            <a href="Quiz.html" id="reset" class="btn btn-primary m-3">إعادة الإختبار</a> 
+            <button id="submit" class="btn btn-success m-3">التالي</button>
+        </div>
+        <hr><hr>
+            
+        </div>
+        
+    </section>
+</section>
+
+  
+    </div>
+
+    <footer class="footer bg-dark text-light ">
+        <div class="container text-center">
+            <div class="row">  
+                <div class="col-md-6 p-2" id="social">
+                    <h3>تواصل معنا</h3><hr>
+                    
+                    <p>للتواصل والاستفسار</p>
+                    <div class="social-media">
+                      <a href="https://www.snapchat.com/add/n2023z_2?share_id=KlFJ_9Bbu-0&locale=en-US"><i class="fab fa-snapchat fa-2x bg-light mx-2 " style="color: #f5d103;border-radius: 5px;"></i></a>
+                      <a href="https://wa.me/967714291911"><i class="fab fa-whatsapp fa-2x mx-2" style="color: #ffffff;border-radius: 5px;background: yellowgreen;"></i></a>
+                      <a href="https://instagram.com/zizoalzeeka?igshid=YWYwM2I1ZDdmOQ=="><i class="fab fa-instagram fa-2x mx-2" style="color: #ff00d4;border-radius: 5px;background: rgb(255, 255, 255);"></i></a>
+                      <a href="#" class="scroll-to-top bg-warning text-dark p-2 my-3 rounded-circle " style="position: absolute;right: 5px;" >
+                        <i class="fas fa-arrow-up" ></i>
+                      </a>
+                        
+                    </div><hr>
+                    
+                </div><br>
+            </div>
+        </div>
+      </footer>
+
+<!------ Footer Starts ---- -->
+
+
+
+<script>
+function startTimer(duration, display) {
+  let timer = duration, minutes, seconds;
+  setInterval(function () {
+    minutes = parseInt(timer / 60, 10);
+    seconds = parseInt(timer % 60, 10);
+
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+    display.textContent = minutes + ":" + seconds;
+
+    if (--timer < 0) {
+      clearInterval(countdown);
+      // يمكنك إضافة الإجراء المطلوب بعد انتهاء المؤقت هنا
+    }
+  }, 1000);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  const twentyMinutes = 20 * 60;
+  const display = document.getElementById('demo');
+  startTimer(twentyMinutes, display);
+});
+</script>
+
+
+    <script src="quiz.js"></script>
+    <script src="../js/main.js"></script> 
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="../js/main2.js"></script>
+</body>
+
+</html>
