@@ -1,30 +1,29 @@
 setTimeout(displayResult, 20 * 60 * 1000); // يعادل 20 دقيقة
 
-
 function handleThemeChange() {
-    const themeCheckbox = document.getElementById('checkbox');
-    const selectedTheme = themeCheckbox.checked ? 'dark' : 'light';
-    localStorage.setItem('theme', selectedTheme);
+  const themeCheckbox = document.getElementById('checkbox');
+  const selectedTheme = themeCheckbox.checked ? 'dark' : 'light';
+  localStorage.setItem('theme', selectedTheme);
+  const body = document.body;
+  if (selectedTheme === 'dark') {
+    body.classList.add('dark');
+  } else {
+    body.classList.remove('dark');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
     const body = document.body;
-    if (selectedTheme === 'dark') {
+    if (savedTheme === 'dark') {
       body.classList.add('dark');
+      document.getElementById("checkbox").checked = true;
     } else {
       body.classList.remove('dark');
     }
   }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-        const body = document.body;
-        if (savedTheme === 'dark') {
-          body.classList.add('dark');
-          document.getElementById("checkbox").checked=true;
-        } else {
-          body.classList.remove('dark');
-        }
-    }
-  });
+});
 
 const quizData = [{
     question: "What is the purpose of System.out.print() in Java?",
@@ -100,122 +99,83 @@ const quizData = [{
 
 let index = 0;
 let correct = 0,
-incorrect = 0,
-total = quizData.length;
+  incorrect = 0,
+  total = quizData.length;
 let questionBox = document.getElementById("questionBox");
-let allInputs = document.querySelectorAll("input[type='radio']")
+let allInputs = document.querySelectorAll("input[type='radio']");
 
 const loadQuestion = () => {
-    if(total === index){
-        return quizEnd()
-    }
-    reset()
-    const data = quizData[index]
-    questionBox.innerHTML = `${index + 1}) ${data.question}`
-    allInputs[0].nextElementSibling.innerText = data.a
-    allInputs[1].nextElementSibling.innerText = data.b
-    allInputs[2].nextElementSibling.innerText = data.c
-    allInputs[3].nextElementSibling.innerText = data.d
-}
+  if (total === index) {
+    return displayResult();
+  }
+  reset();
+  const data = quizData[index];
+  questionBox.innerHTML = `${index + 1}) ${data.question}`;
+  allInputs[0].nextElementSibling.innerText = data.a;
+  allInputs[1].nextElementSibling.innerText = data.b;
+  allInputs[2].nextElementSibling.innerText = data.c;
+  allInputs[3].nextElementSibling.innerText = data.d;
+};
 
 const getAnswer = () => {
-let ans;
-allInputs.forEach(
-    (inputEl) => {
-        if (inputEl.checked) {
-            ans = inputEl.value;
-        }
+  let ans;
+  allInputs.forEach((inputEl) => {
+    if (inputEl.checked) {
+      ans = inputEl.value;
     }
-)
-return ans;
-}
+  });
+  return ans;
+};
 
-document.querySelector("#submit").addEventListener(
-"click",
-function() {
-    const data = quizData[index]
-    const ans = getAnswer()
-    if (ans === data.correct) {
-        correct++;
-    } else {
-        incorrect++;
-    }
-    index++;
-    loadQuestion()
-}
-)
+document.querySelector("#submit").addEventListener("click", function () {
+  const data = quizData[index];
+  const ans = getAnswer();
+  if (ans === data.correct) {
+    correct++;
+  } else {
+    incorrect++;
+  }
+  index++;
+  loadQuestion();
+});
 
-
-
-document.querySelector("#reset").addEventListener(
-        "click",
-        function(){
-            allInputs.forEach(
-                (inputEl) => {
-                    inputEl.checked = false;
-                }
-            )
-        }
-)
-
+document.querySelector("#reset").addEventListener("click", function () {
+  allInputs.forEach((inputEl) => {
+    inputEl.checked = false;
+  });
+});
 
 const reset = () => {
-allInputs.forEach(
-    (inputEl) => {
-        inputEl.checked = false;
-    }
-)
-}
-
-const quizEnd = () => {
-    let unanswered = total - (correct + incorrect);
-    let incorrectQuestions = [];
-    
-    for (let i = 0; i < total; i++) {
-        if (quizData[i].correct !== getAnswer(i)) {
-            incorrectQuestions.push(quizData[i]);
-        }
-    }
-    
-    document.getElementsByClassName("container2")[0].innerHTML = `
-        <div class="col text-center mb-5">
-            <div class="bg-light "> <h3 class="w-100 text-dark "> انتهى الكويز </h3><hr></div>
-            <h2 class="w-100 mb-5">${total} : ${correct}  درجتك هي  </h2><hr>
-            <h5 class="w-100 mb-5"> الأسئلة التي لم تجب عليها بشكل صحيح هي بالأسفل</h5><hr>
-            
-            <ul class="text-start  bg-dark">
-                ${incorrectQuestions.map((question) => `<li class="text-danger">${question.question}</li><hr>`).join("")}
-            </ul>
-            <button class="reload btn-warning mb-5" type='button' onclick=location.reload(); > إعادة الإختبار </button>
-        </div>`;
-        var div1 = document.getElementById("timer");
-        div1.style.display = "none";
+  allInputs.forEach((inputEl) => {
+    inputEl.checked = false;
+  });
 };
 
 loadQuestion(index);
 
 function displayResult() {
-    let unanswered = total - (correct + incorrect);
-    let incorrectQuestions = [];
-   
-    for (let i = 0; i < total; i++) {
-        if (quizData[i].correct !== getAnswer(i)) {
-            incorrectQuestions.push(quizData[i]);
-        }
+  let unanswered = total - (correct + incorrect);
+  let incorrectQuestions = [];
+
+  for (let i = 0; i < total; i++) {
+    if (quizData[i].correct !== getAnswer(i)) {
+      incorrectQuestions.push(quizData[i]);
     }
-   
-    document.getElementsByClassName("container2")[0].innerHTML = `
-        <div class="col text-center mb-5">
-            <div class="bg-light "> <h3 class="w-100 text-dark "> انتهى الكويز </h3><hr></div>
-            <h2 class="w-100 mb-5">${total} : ${correct}  درجتك هي  </h2><hr>
-            <h5 class="w-100 mb-5"> الأسئلة التي لم تجب عليها بشكل صحيح هي بالأسفل</h5><hr>
-           
-            <ul class="text-start  bg-dark">
-                ${incorrectQuestions.map((question) => `<li class="text-danger">${question.question}</li><hr>`).join("")}
-            </ul>
-            <button class="reload btn-warning mb-5" type='button' onclick=location.reload(); > إعادة الإختبار </button>
-        </div>`;
-        var div1 = document.getElementById("timer");
-        div1.style.display = "none";
   }
-  
+
+  document.getElementsByClassName("container2")[0].innerHTML = `
+    <div class="col text-center mb-5">
+        <div class="bg-light "> <h3 class="w-100 text-dark "> انتهى الكويز </h3><hr></div>
+        <h2 class="w-100 mb-5">${total} : ${correct}  درجتك هي  </h2><hr>
+       <!-- <h5 class="w-100 mb-5"> الأسئلة التي لم تجب عليها بشكل صحيح هي بالأسفل</h5><hr>
+       
+        <ul class="text-start  bg-dark">
+            ${incorrectQuestions
+              .map((question) => `<li class="text-danger">${question.question}</li><hr>`)
+              .join("")}
+        </ul>-->
+        <button class="reload btn-warning mb-5" type='button' onclick=location.reload(); > إعادة الإختبار </button>
+    </div>`;
+  var div1 = document.getElementById("timer");
+  div1.style.display = "none";
+}
