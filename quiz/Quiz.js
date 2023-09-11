@@ -1,4 +1,4 @@
-setTimeout(displayResult, 1 * 60 * 1000); // يعادل 20 دقيقة
+setTimeout(displayResult, 20 * 60 * 1000); // يعادل 20 دقيقة
 
 function handleThemeChange() {
   const themeCheckbox = document.getElementById('checkbox');
