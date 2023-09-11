@@ -1,4 +1,4 @@
-setTimeout(displayResult, 20 * 60 * 1000); // يعادل 20 دقيقة
+setTimeout(displayResult, 1 * 60 * 1000); // يعادل 20 دقيقة
 
 function handleThemeChange() {
   const themeCheckbox = document.getElementById('checkbox');
@@ -165,8 +165,11 @@ function displayResult() {
 
   document.getElementsByClassName("container2")[0].innerHTML = `
     <div class="col text-center mb-5">
-        <div class="bg-light "> <h3 class="w-100 text-dark "> انتهى الكويز </h3><hr></div>
-        <h2 class="w-100 mb-5">${total} : ${correct}  درجتك هي  </h2><hr>
+        <img class="w-50 rounded-circle bg-success" src="../img/v.png"/>
+        <div class="bg-light "> <h3 class="w-100 text-dark p-5 mt-0"> انتهى الكويز </h3><hr></div>
+        <h2 class="w-100 mb-5">${total}  : درجة الكويز هي  </h2>
+        <h2 class="w-100 mb-5">${correct}  : درجتك هي  </h2>
+        <hr><hr>
        <!-- <h5 class="w-100 mb-5"> الأسئلة التي لم تجب عليها بشكل صحيح هي بالأسفل</h5><hr>
        
         <ul class="text-start  bg-dark">
