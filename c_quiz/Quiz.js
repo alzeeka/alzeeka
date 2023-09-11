@@ -136,7 +136,7 @@ const quizData = [{
         correct: "c",},
 
 {
-          question: 'What is the output?\n\nint c = 5;<br>int x = 4;\ncout<<"c + x = "<<c + x;',
+          question: 'What is the output?\n\nint c = 5;\nint x = 4;\ncout<<"c + x = "<<c + x;',
           a: "c + x",
           b: "5",
           c: "9",
@@ -144,7 +144,7 @@ const quizData = [{
           correct: "d",},
 
 {
-        question: 'What is the output?\n\nfloat c = 7;<br>int x = 3;\ncout<<c / x; ',
+        question: 'What is the output?\n\nfloat c = 7;\nint x = 3;\ncout<<c / x; ',
         a: "2",
         b: "2.5",
         c: "error",
