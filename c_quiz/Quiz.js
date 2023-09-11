@@ -47,7 +47,7 @@ const quizData = [{
     d: "d. Keyboard",
     correct: "a",},
 {
-    question: "What type of programs take control of the computer?",
+    question: "What type of  programs take control of the computer?",
     a: " Application programs ",
     b: " System programs ",
     c: " High-level languages ",
@@ -82,7 +82,7 @@ const quizData = [{
     d: "Design steps to solve the problem",
     correct: "b",},
 {
-    question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">int c = 5;<br>cout<<"the value of c : "<<c;</p> ',
+    question: 'What is the output?\n\nint c = 5;\ncout<<"the value of c : "<<c; ',
     a: "the value of c : c",
     b: "the value of c : 5",
     c: "c",
@@ -97,38 +97,38 @@ const quizData = [{
     correct: "a",},
 
 {
-      question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">int c = 5;<br>cout<<"the value of c : "<<c;</p> ',
+      question: 'What is the output?\n\n int c = 5+4;\ncout<<"the value of c : "<<c; ',
       a: "the value of c : c",
-      b: "the value of c : 5",
+      b: "the value of c : 9",
       c: "c",
-      d: "5",
+      d: "9",
       correct: "b",},
 
 {
-      question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">cout<<"hello"<<endl;<br>cout<<"word"<<endl;</p> ',
+      question: 'What is the output?\n\n cout<<"hello"<<endl;\ncout<<"word"<<endl; ',
       a: "helloword",
-      b: "hello<br>word",
+      b: "hello\n  word",
       c: "hello word",
       d: "error",
       correct: "b",},
 
 {
-      question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">cout<<"hello";<br>cout<<"word"<<endl;</p> ',
+      question: 'What is the output?\n\ncout<<"hello";\ncout<<"word"<<endl; ',
       a: "helloword",
-      b: "hello<br>word",
+      b: "hello\nword",
       c: "hello word",
       d: "error",
       correct: "a",},
 
 {
-      question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">cout<<"hello ";<br>cout<<"word";</p> ',
+      question: 'What is the output?\n\ncout<<"hello ";\ncout<<"word"; ',
       a: "helloword",
-      b: "hello<br>word",
+      b: "hello\nword",
       c: "hello word",
       d: "error",
       correct: "c",},
 {
-        question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">int c = 5;<br>int x = 4;<br>cout<<c + x;</p> ',
+        question: 'What is the output?\n\nint c = 5;\nint x = 4;\ncout<<c + x; ',
         a: "c + x",
         b: "5",
         c: "9",
@@ -136,7 +136,7 @@ const quizData = [{
         correct: "c",},
 
 {
-          question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">int c = 5;<br>int x = 4;<br>cout<<"c + x = "<<c + x;</p> ',
+          question: 'What is the output?\n\nint c = 5;<br>int x = 4;\ncout<<"c + x = "<<c + x;',
           a: "c + x",
           b: "5",
           c: "9",
@@ -144,28 +144,28 @@ const quizData = [{
           correct: "d",},
 
 {
-        question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">float c = 7;<br>int x = 3;<br>cout<<c / x;</p> ',
+        question: 'What is the output?\n\nfloat c = 7;<br>int x = 3;\ncout<<c / x; ',
         a: "2",
         b: "2.5",
         c: "error",
         d: "c / x ",
         correct: "b",},
     {
-      question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">cout<<"welcome \n";<br>cout<<"in c++";</p> ',
+      question: 'What is the output?\n\ncout<<"welcome \\n";\ncout<<"in c++"; ',
       a: "welcome in c++",
       b: "welcomeinc++",
       c: "error",
-      d: "welcome <br>in c++",
+      d: "welcome \nin c++",
       correct: "d",},
       {
-        question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">string name = "c++";<br>cout<<"welcome : "<<name;</p> ',
+        question: 'What is the output?\n\nstring name = "c++";\ncout<<"welcome : "<<name; ',
         a: "welcome : c++",
-        b: "welcome : <br>c++",
+        b: "welcome : \n    c++",
         c: "welcome",
         d: "welcome : name",
         correct: "a",},
         {
-          question: 'What is the output?<br><br> <p class="fs-6 bg-dark p-2">string name1 = "ahmed";<br>string name2 = "ali";<br>cout<<name1+name2;</p> ',
+          question: 'What is the output?\n\nstring name1 = "ahmed";\nstring name2 = "ali";\ncout<<name1+name2; ',
           a: "ahmed ali",
           b: "ahmedali",
           c: "name1name2",
