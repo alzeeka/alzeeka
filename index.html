@@ -12,6 +12,34 @@
 
   <title> Alzeeka Tutorial , برمجة , تصميم , تعليم</title>
   <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNxYmmXCn-By0bXjQ5X1F58P8JiikrP13ZjA&usqp=CAU"/>
+  <style>
+    @keyframes fade {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #myText {
+      animation: fade 2s infinite;
+    }
+  </style>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var texts = ['<i class="fas fa-photo-video" style="font-size:30px"></i> شروحات المقرر بالكامل', 
+      '<i class="fas fa-book" style="font-size:30px"></i> حل التمارين والواجبات', '<i class="fas fa-file-video" style="font-size:30px"></i> عمل مراجعات وشرح تجميعات  ', 
+      '<i class="fas fa-gift" style="font-size:30px"></i> مفاجآآآآآت بإنتظارك', '<i class="far fa-newspaper" style="font-size:30px"></i> شهادات نهاية الترم',
+       '<i class="fas fa-plus-square" style="font-size:30px"></i> إشترك الآن ']; 
+      var textIndex = 0; // مؤشر النص الحالي
+
+      setInterval(changeText, 2000); // تغيير النص كل 2 ثانية (2000 ميلي ثانية)
+
+      function changeText() {
+        var element = document.getElementById('myText');
+        element.innerHTML = texts[textIndex];
+        textIndex = (textIndex + 1) % texts.length; // التحقق من حدود المصفوفة
+      }
+    });
+  </script>
 </head>
 <body>
     <div class="navbar navbar-expand-md bg-dark navbar-dark text-white my-1 ">
@@ -42,7 +70,7 @@
     </div>
 
     <img width="100%" src="https://a7c7n2r3.rocketcdn.me/wp-content/uploads/2023/09/%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-2023-.jpg" alt="" >
-
+    <h5 id="myText" class="bg-warning text-center py-3 text-light my-2"></h5>
 
     <!---------------     Hero        -------------- -->
     <section id="hero" class="bg-dark text-light text-center text-sm-start py-5 ">
@@ -52,6 +80,8 @@
                     <h1 class="display-1">حقق <span class="text-warning">التفوق</span></h1>
                     <p class="py-3">  تقديم مساعدة وخدمات للطالب مجانية ومدفوعة</p>
                     <a href="#services"><button class="btn btn-warning " id="open-btn" >ابدأ</button></a>
+                    
+                    
 
                 </div>
                 <img class="img-fluid w-50 rounded-10" 
