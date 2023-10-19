@@ -14,7 +14,7 @@ $(document).ready(function() {
   });
   
   $('.c_plus').click(function() {
-    $('#you_c iframe').attr('src', 'https://www.youtube.com/embed/wVI9eefqSZs?si=cv_WJOQ8JpPF59Yj');
+    $('#you_c iframe').attr('src', 'https://www.youtube.com/embed/-nUZ1_YbgM4?si=OzNsNpxtdnmRLmb4');
     $('#you_c').modal('show');
   });
   $('.intro_m').click(function() {
