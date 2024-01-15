@@ -1,477 +1,340 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html >
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/main.css" rel="stylesheet" >
-  <link href="css/sec.css" rel="stylesheet" >
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
-  <title> Alzeeka Tutorial , برمجة , تصميم , تعليم</title>
-  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNxYmmXCn-By0bXjQ5X1F58P8JiikrP13ZjA&usqp=CAU"/>
-  <style>
-    @keyframes fade {
-      0% { opacity: 0; }
-      50% { opacity: 1; }
-      100% { opacity: 0; }
-    }
-
-    #myText {
-      background-color: rgb(119, 12, 108);
-      animation: fade 2s infinite;
-    }
+	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ALZEEKA Tutorial</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="stylesheet" href="vendor/jqvmap/css/jqvmap.min.css">
+	<link rel="stylesheet" href="vendor/chartist/css/chartist.min.css">
+	<!-- Summernote -->
+    <link href="vendor/summernote/summernote.css" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skin-3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     
+    <style>
+        
         *{font-family: 'Cairo', sans-serif;}
-   
-  </style>
-  <script>
-    window.addEventListener('DOMContentLoaded', function() {
-      var texts = ['<i class="fas fa-photo-video" style="font-size:30px"></i> شروحات المقرر بالكامل', 
-      '<i class="fas fa-book" style="font-size:30px"></i> حل التمارين والواجبات', '<i class="fas fa-file-video" style="font-size:30px"></i> عمل مراجعات وشرح تجميعات  ', 
-      '<i class="fas fa-gift" style="font-size:30px"></i> مفاجآآآآآت بإنتظارك', '<i class="far fa-newspaper" style="font-size:30px"></i> شهادات نهاية الترم',
-       '<i class="fas fa-plus-square" style="font-size:30px"></i> إشترك الآن ']; 
-      var textIndex = 0; // مؤشر النص الحالي
+    </style>
 
-      setInterval(changeText, 2000); // تغيير النص كل 2 ثانية (2000 ميلي ثانية)
-
-      function changeText() {
-        var element = document.getElementById('myText');
-        element.innerHTML = texts[textIndex];
-        textIndex = (textIndex + 1) % texts.length; // التحقق من حدود المصفوفة
-      }
-    });
-  </script>
 </head>
-<body>
-    <div class="navbar navbar-expand-md bg-dark navbar-dark text-white my-1 ">
-        <div class="container ">
-            <a href="#" class="navbar-brand">Alzeeka Tutorial </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenuu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<body  dir="rtl">
 
-            <div class="collapse navbar-collapse text-center " id="mainmenuu">
-                <ul class="navbar-nav ms-auto ">
-                    <li class="navbar-item"><a href="#" class="nav-link">الصفحة الرئيسية</a></li>
-                    <li class="navbar-item"><a href="#services" class="nav-link">خدماتي</a></li>
-                    
-                    <li class="navbar-item "><a href="#social" class="nav-link">تواصل معنا</a></li>
-                    <li class="navbar-item "><a href="Certificates.html" class="nav-link">الشهادات</a></li>
-                    <li class="navbar-item "><div class="d-flex justify-content-center  align-items-center m-2 bg-dark " id="open-btn"> 
-                      <a class="btn btn-primary m-1 text-sm" href="quiz/Quiz.html"> كويز جافا</a>
-                      <a class="btn btn-success m-1 text-sm" href="c_quiz/Quiz.html">c++ كويز  </a>
-                      
-                      <!--<a class="btn btn-warning m-1" >c++ كويز  </a>
-                      <a class="btn btn-success m-1" > كويز مقدمة في حل المسائل</a>-->
-                      
-                  </div></li>
-                    
-                </ul>
-            </div>
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
         </div>
     </div>
+    <!--*******************
+        Preloader end
+    ********************-->
 
-    <!--<img width="100%" src="" alt="" >-->
-    <h5 id="myText" class="text-center py-3 text-light my-2"></h5>
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
 
-    <!---------------     Hero        -------------- -->
-    <section id="hero" class="bg-dark text-light text-center text-sm-start py-5 ">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-center">
-                <div class="py-5">
-                    <h1 class="display-1">هلا <span class="text-warning">والله</span></h1>
-                    <p class="py-3"> موقع اقدم فيه كل خدماتي , يسعدني خدمتكم</p>
-                    <a href="#services"><button class="btn btn-warning " id="open-btn" >ابدأ</button></a>
-                    
-                    
-                    
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-abbr" src="images/logo-white-3.png" alt="">
+                <!-- <img class="logo-compact" src="images/logo-text-white.png" alt="">
+                <img class="brand-title" src="images/logo-text-white.png" alt="">-->
+            </a>
 
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
                 </div>
-                <img class="img-fluid w-50 rounded-10" 
-                src="https://video-public.canva.com/VAD8zRSJHok/v/2fa7f0d246.gif" alt="" >
             </div>
         </div>
-        <hr>
-        <div class="text-center py-1">
+        <!--**********************************
+            Nav header end
+        ***********************************-->
 
-          <h5 class="">جبت لكم خصوصي لكل ما يتعلق بمقررات الماث , ممتاز وعليه مدح    | <span class="text-sm text-warning">د. منور العامري</span></h5>
-          <a href="math/index.html"><button class="btn btn-warning mx-2" id="open-btn" >افتح الصفحة</button></a>
-
-        </div>
-
-
-
-    </section>
-
-
-
-
-
-    <!---------------     services        -------------- -->
-    <section>
-        <div class="container my-3 " id="services">
-            <div class="row  justify-content-center align-items-sm-center text-sm-center ">
-                <div class="col-md d-flex justify-content-center align-items-center ">
-                    <div class="card bg-dark text-light mb-3" style="width: 25rem;" >
-                        <img src="img/learn.jpg" class="card-img-top" alt="...">
-                        <div  class="card-body ">
-                            <h5 class="card-title text-center ">شرح مقررات وحل الواجبات</h5>
-                            <p class="card-title text-center text-light" > كل مقرر ب <strong class="text-danger">100</strong>  ريال </p>
-
-                            <p class="card-title text-center text-warning" > * الاشتراك يشمل حل الواجبات   *</p>
-                            <table class="table table-dark table-striped text-end">
-                              <tr>
-                                
-                                <td> 
-                                  <button type="button" id="open-btn" class="btn-light java p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
-                                 تجريبي
-                                  </button>
-                                  
-                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
-                                  فتح
-                                </button>
-                                
-                              
-                              </td>
-                                <td> java - </td>
-                              </tr>
-                              <tr>
-                                <td> 
-                                  <button type="button" id="open-btn" class="btn-light c_plus p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
-                                     تجريبي
-                                  </button>
-                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
-                                  فتح
-                                </button></td>
-                                <td>  برمجة 1 -</td>
-                              </tr>
-                              <tr>
-                                <td> 
-                                  <button type="button" id="open-btn" class="btn-light intro_m p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
-                                     تجريبي
-                                  </button>
-                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
-                                  فتح
-                                </button></td>
-                                <td>مقدمة الى حل المسائل- </td>
-                              </tr>
-                             <!-- <tr> 
-                                <td> 
-                                  <button type="button" id="open-btn" class="btn-light logic_m p-2 bg-primary text-light" data-toggle="modal" data-target="#loginModal">
-                                     تجريبي
-                                  </button>
-                                  
-                                  <button type="button" id="open-btn" class="btn-light p-2 open-btn" data-toggle="modal" data-target="#loginModal">
-                                  فتح
-                                </button></td>
-                                <td>ماث 110 -</td>
-                              </tr>-->
-                            </table>
-                           
-
-
-                        </div>
-                            
-                        <a href="https://wa.me/967714291911" class="btn btn-primary animated w-50 m-auto my-3">تواصل معي</a>
-
-
-
-
-
-
-
-
-
-
-
-                        <!--------------------------------                 dialog                             -------------------------------->
-                        <!--------------------------------                 dialog                             -------------------------------->
-                        <div class="modal " id="loginModal" tabindex="-1" role="dialog">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content bg-dark text-light text-end">
-                              <div class="modal-header">
-                                <h5 class="modal-title text">تسجيل الدخول</h5>
-                                
-                                <div id="error-message" class="text-danger bg-light"></div>
-                                <button type="button"   class="closeButton">
-                                  <span>&times;</span>
-                                </button>
-                              </div>
-
-                              <div class="modal-body">
-
-                                <form class="text-center">
-                                  <img src="https://i.pinimg.com/originals/9f/c2/12/9fc2126eec2c0a3876e3f2097af9b983.gif" width="100%" alt="">
-
-                                  <div class="form-group ">
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header"  >
+            <center><h3 class="text-light py-4">ALZEEKA TUTORIAL</h3></center>
+            <div class="header-content">
+                
+                <nav class="navbar navbar-expand">
+                    
+                    <div class="collapse navbar-collapse justify-content-between">
+                        
+                        
+ <!--
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link bell ai-icon" href="#" role="button" data-toggle="dropdown">
+                                    <svg id="icon-user" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
+										<path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+										<path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+									</svg>
+                                    <div class="pulse-css"></div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <ul class="list-unstyled">
+                                       
+                                        <li class="media dropdown-item">
+                                            <span class="success"><i class="ti-image"></i></span>
+                                            <div class="media-body">
+                                                <a href="#">
+                                                    <p><strong> ALZEEKA</strong> لا يوجد اشعارات </p>
+                                                </a>
+                                            </div>
+                                            <span class="notify-time"></span>
+                                        </li>
+                                    </ul>
                                    
-                                    <input type="text" class="form-control text-center my-3" id="username" placeholder="أدخل اسم المستخدم">
-                                  </div>
-                                  <div class="form-group">
-                                    
-                                    <input type="password" class="form-control text-center my-3" id="password" placeholder="أدخل كلمة المرور">
-                                  </div>
-                                  <a href="https://wa.me/967714291911" class="text-danger " style="text-decoration: none;">نسيت كلمة المرور ؟</a>
-                                </form>
-                              </div>
-                              
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal"  >إغلاق</button>
-                                <button type="button" class="btn btn-primary" id="loginButton">تسجيل الدخول</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-
-
-
-
-
-                        <div class="modal" id="you_java" tabindex="-1" role="dialog">
-                          <div class="modal-dialog" role="document">
-                              <div class="modal-content bg-dark text-light text-end">
-                                  <div class="modal-header">
-                                      <h5 class="modal-title">شرح تجريبي</h5>
-                                      <div id="error-message" class="text-danger bg-light"></div>
-                                      <button type="button" class="closeButton">
-                                          <span>&times;</span>
-                                      </button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/d9xdTuvci88"
-                                     title="YouTube video player" frameborder="0" 
-                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
-                                    </div>
-                                    </div>
-                              </div>
-                          </div>
-                      </div>
-
-
-                      <div class="modal" id="you_c" tabindex="-1" role="dialog">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content bg-dark text-light text-end">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">شرح تجريبي</h5>
-                                    <div id="error-message" class="text-danger bg-light"></div>
-                                    <button type="button" class="closeButton">
-                                        <span>&times;</span>
-                                    </button>
                                 </div>
-                                <div class="modal-body">
-                                  
-                                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/-nUZ1_YbgM4?si=x9z_UwtPguoNRk9t" title="YouTube video player" frameborder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                               </div>
-                                
-                                
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
+                            </li>
+                            
+                            
+                            <li class="nav-item dropdown header-profile notification_dropdown">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                                    <img src="https://static-00.iconduck.com/assets.00/user-icon-2048x2048-ihoxz4vq.png" width="20" alt="">
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                   
+                                    <a href="page-login.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                                        <span class="ml-2"> تسجيل الخروج </span>
+                                    </a>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                            
+                        </ul>-->
                     </div>
-
-
-
-                    <div class="modal" id="you_intro" tabindex="-1" role="dialog">
-                      <div class="modal-dialog" role="document">
-                          <div class="modal-content bg-dark text-light text-end">
-                              <div class="modal-header">
-                                  <h5 class="modal-title">شرح تجريبي</h5>
-                                  <div id="error-message" class="text-danger bg-light"></div>
-                                  <button type="button" class="closeButton">
-                                      <span>&times;</span>
-                                  </button>
-                              </div>
-                              <div class="modal-body">
-                                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/Xh1vhtdP83A?si=pDIT-SLUCpNH-Ugp" title="YouTube video player" frameborder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-
-
-                  <div class="modal" id="you_logic" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content bg-dark text-light text-end">
-                            <div class="modal-header">
-                                <h5 class="modal-title">شرح تجريبي</h5>
-                                <div id="error-message" class="text-danger bg-light"></div>
-                                <button type="button" class="closeButton">
-                                    <span>&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <iframe width="100%" height="315" src="" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary closeButton" data-dismiss="modal">إغلاق</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                       
-                          
-                   
-                      </div>
-                    
-                 </div>
-            
-
-
-                 <!--------------------------------                 2                             -------------------------------->
-
-                 <!--------------------------------                 2                             -------------------------------->
-                <div class="col-md d-flex  text-center justify-content-center align-items-center">
-                    <div class="card bg-dark text-light mb-3" style="width: 25rem;">
-                        <img src="img/power.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title ">عمل البحوث وعروض البوروينت</h5>
-                          <p class="card-text">بحوث دقيقة- عروض بوربوينت احترافية</p>
-                          <a href="https://wa.me/967714291911" class="btn btn-primary">تواصل معي</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-md d-flex justify-content-center align-items-center text-center">
-                    <div class="card bg-dark text-light mb-3" style="width: 25rem;">
-                        <img src="img/design.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">عمل تصاميم</h5>
-                          <p class="card-text">تهنئات - بوسترات - سيرة ذاتية - فيديوهات</p>
-                          <a href="https://wa.me/967714291911" class="btn btn-primary">تواصل معي</a>
-                        </div>
-                      </div>
-                </div>
+                </nav>
             </div>
         </div>
-    </section>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!---------------     Faq        -------------- -->
-    <section id="faq" class="py-5">
-        <div class="container text-end ">
-            <h2 class="text-center mb-3">الأسئلة الشائعة</h2>
-            <div class="accordion " id="accordionExample">
-                <div class="accordion-item bg-dark text-light">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <span class="">من أنت ؟</span>
-                      
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body ">
-                      <strong>أنا اسمي زكريا  </strong> 
-                        بكالوريس هندسة شبكات لدي خبرة ومعرفة  في البرمجة 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item bg-dark text-light">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      كيف يعني تقدم خدمات مجانية وخدمات مدفوعة ؟
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong class="text-danger">خدمات مجانية </strong> مثلا معك سؤال معين او مشكلة او استفسار معين طيب من عيوني اساعدك
-                      <br><br><strong class="text-danger">خدمات مدفوعة </strong> مثل الخدمات الي عارضها فوق شروحات وواجبات ...الخ
-                    
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item bg-dark text-light">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      طيب ودي خدمة بس والله حاليا ما معي فلوس , يمديك تساعدني ؟ 
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>عادي ما في مشكلة بنتظر لين الله يفتح عليك</strong> 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-        </div>
-    </section>
-
-    
-
-
-
-    <!---------------     Faq        -------------- -->
-
-    <footer class="footer bg-dark text-light">
-      <div class="container text-center ">
-          <div class="row">  
-              <div class="col-md-6" id="social">
-                  <h3>تواصل معنا</h3><hr>
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="dlabnav">
+            <div class="dlabnav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label first"> القائمة الرئيسية </li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
+							<i class="la la-home"></i>
+							<span class="index.html">الصفحة الرئيسية</span>
+						</a>
+                        
+                    </li>
+					
+					
+					<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
+							<i class="la la-desktop"></i>
+							<span class="nav-text">الشروحات</span>
+						</a>
+                        <ul aria-expanded="false">
+                            <li><a href="Explains.html">كل الشروحات</a></li>
+                            <li><a href="CSCE101.html">جافا 1     - CSCE101</a></li>
+                            <li><a href="edit-courses.html">جافا 2   - CSCE102</a></li>
+                            <!--<li><a href="about-courses.html">برمجة الحاسب   - ++c  </a></li>-->
+                            <li><a href="https://wa.me/966533597191"> مقدمة الى حل المسائل </a></li>
+                        </ul>
+                    </li>
+					
+					
                   
-                  <p>للتواصل والاستفسار</p>
-                  <div class="social-media">
-                    <a href="https://www.snapchat.com/add/n2023z_2?share_id=KlFJ_9Bbu-0&locale=en-US"><i class="fab fa-snapchat fa-2x bg-light mx-2 " style="color: #f5d103;border-radius: 5px;"></i></a>
-                    <a href="https://wa.me/967714291911"><i class="fab fa-whatsapp fa-2x mx-2" style="color: #ffffff;border-radius: 5px;background: yellowgreen;"></i></a>
-                    <a href="https://instagram.com/zizoalzeeka?igshid=YWYwM2I1ZDdmOQ=="><i class="fab fa-instagram fa-2x mx-2" style="color: #ff00d4;border-radius: 5px;background: rgb(255, 255, 255);"></i></a>
-                    <a href="#" class="scroll-to-top bg-warning text-dark p-2 my-3 rounded-circle " style="position: absolute;right: 5px;" >
-                      <i class="fas fa-arrow-up" ></i>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <i class="la la-phone"></i>
+                        <span class="nav-text"> تواصل معنا</span>
+
                     </a>
-                      
-                  </div><hr>
-                  
-              </div><br>
-          </div>
-      </div>
-    </footer>
+                    <ul aria-expanded="false">
+                        <li><a href="https://wa.me/966533597191">واتساب <i class="fa fa-whatsapp" style="font-size:20px;color:rgb(12, 185, 61)"></i> </a></li>
+                        <li><a href="https://t.me/Alzeeka_321">تليقرام <i class="fa fa-telegram" style="font-size:20px;color:rgb(9, 158, 204)"></i> </a></li>
+                        
+                    </ul>
+                    
+                    </li>					
+                    
+                        
+                   
+				</ul>
+            </div>
+        </div>
+     
+           
 
 
-<script src="js/main.js"></script> 
+        
+        <div class="content-body">
+            <!-- row -->
+            <div class="container-fluid">
+				    
+                <div class="row">
+					
+					<div class="col-xl-4 col-xxl-4 col-lg-6 col-md-6 text-center">
+						<div class="card">
+							<img class="img-fluid" src="images/courses/pic3.jpg" alt="">
+							<div class="card-body">
+								<h3 ><a href="Explains.html"  > <- شروحات البرمجة -> </a></h3>
+								<ul class="list-group mb-3 list-group-flush">
+									<li class="list-group-item px-0 border-top-0 d-flex justify-content-between">
+										<strong>جافا 1 | CSCE 101  | جامعة حائل </strong></li>
+									<li class="list-group-item px-0 d-flex justify-content-between">
+										<strong> جافا 2 | CSCE 102  | جامعة حائل  </strong></li>
+									<li class="list-group-item px-0 d-flex justify-content-between">
+										<strong>مقدمة في حل المسائل | جامعة الطائف</strong></li>
+									<li class="list-group-item px-0 d-flex justify-content-between">
+										<strong>  </strong></li>
+                                        <li class="list-group-item px-0 d-flex justify-content-between">
+                                            <strong>  </strong></li>
+                                            <li class="list-group-item px-0 d-flex justify-content-between">
+                                                <strong>  </strong></li>
+                                                <li class="list-group-item px-0 d-flex justify-content-between">
+                                                    <strong>  </strong></li>
+								</ul>
+								<a href="https://wa.me/966533597191" class="btn btn-primary">تواصل معي</a>
+                                <a href="Explains.html" class="btn btn-primary"> عرض الشروحات</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-xxl-4 col-lg-6 col-md-6 text-center">
+						<div class="card">
+							<img class="img-fluid" src="images/courses/pic1.jpg" alt="">
+							<div class="card-body">
+								<h3><a href="about-courses.html">تصاميم احترافية</a></h3>
+								<ul class="list-group mb-3 list-group-flush">
+									<li class="list-group-item px-0 border-top-0 d-flex justify-content-between">
+										<strong>بوسترات</strong><i class="la la-heart-o mr-1 "></i></li>
+									<li class="list-group-item px-0 d-flex justify-content-between">
+										<strong>سيرة ذاتية - CV </strong><i class="la la-heart-o mr-1 "></i></li>
+									<li class="list-group-item px-0 d-flex justify-content-between">
+										<strong>تهنئات</strong><i class="la la-heart-o mr-1 "></i></li>
+									<li class="list-group-item px-0 d-flex justify-content-between">
+									    <strong>فيديوهات</strong><i class="la la-heart-o mr-1 "></i></li>
+                                        <li class="list-group-item px-0 d-flex justify-content-between">
+                                            <strong>  </strong></li>
+                                            <li class="list-group-item px-0 d-flex justify-content-between">
+                                                <strong>  </strong></li>
+                                        
+								</ul>
+								<a href="https://wa.me/966533597191" class="btn btn-primary">تواصل معي</a>
+                                <a href="about-courses.html" class="btn btn-primary"> عرض الأعمال</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-xxl-4 col-lg-6 col-md-6 text-center">
+						<div class="card">
+							<img class="img-fluid" src="images/courses/pic2.jpg" alt="">
+							<div class="card-body">
+								<h3><a href="about-courses.html">البحث العلمي</a></h3>
+								<ul class="list-group mb-3 list-group-flush">
+									<li class="list-group-item px-0 border-top-0 d-flex justify-content-between">
+										<strong>بحوث دقيقة</strong><i class="la la-heart-o mr-1 "></i></li>
+                                    <li class="list-group-item px-0 border-top-0 d-flex justify-content-between">
+                                       <strong>عروض بوربوينت احترافية</strong><i class="la la-heart-o mr-1 "></i></li>
+                                       
+                                        <li class="list-group-item px-0 border-top-0 d-flex justify-content-between">
+                                            <strong>مشاريع التخرج</strong><i class="la la-heart-o mr-1 "></i></li>
+                                    <li class="list-group-item px-0 border-top-0 d-flex justify-content-between">
+                                        <strong>انفوجرافيك</strong><i class="la la-heart-o mr-1 "></i></li>
+                                    <li class="list-group-item px-0 border-top-0 d-flex justify-content-between">
+                                        <strong>خرائط ذهنية</strong><i class="la la-heart-o mr-1 "></i></li>
+									
+								</ul>
+								<a href="https://wa.me/966533597191" class="btn btn-primary">تواصل معي</a>
+                                <a href="about-courses.html" class="btn btn-primary"> عرض الأعمال</a>
+							</div>
+						</div>
+					</div>
+                    
+                    
+					
+					
+					
+                          
+                </div>
+				
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="js/main2.js"></script>
 
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © Designed &amp; Developed by <a href="../index.htm" target="_blank">ALZEEKA</a> 2024</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+		<!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="vendor/global/global.min.js"></script>
+	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/dlabnav-init.js"></script>	
+	
+	<!-- Chart sparkline plugin files -->
+    <script src="vendor/jquery-sparkline/jquery.sparkline.min.js"></script>
+	<script src="js/plugins-init/sparkline-init.js"></script>
+	
+	<!-- Chart Morris plugin files -->
+    <script src="vendor/raphael/raphael.min.js"></script>
+    <script src="vendor/morris/morris.min.js"></script> 
+	
+    <!-- Init file -->
+    <script src="js/plugins-init/widgets-script-init.js"></script>
+	
+	<!-- Demo scripts -->
+    <script src="js/dashboard/dashboard.js"></script>
+	
+	<!-- Summernote -->
+    <script src="vendor/summernote/js/summernote.min.js"></script>
+    <!-- Summernote init -->
+    <script src="js/plugins-init/summernote-init.js"></script>
+	
+	<!-- Svganimation scripts -->
+    <script src="vendor/svganimation/vivus.min.js"></script>
+    <script src="vendor/svganimation/svg.animation.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+		
 </body>
 </html>
