@@ -270,54 +270,56 @@ var FileNames = [ " جميع الملفات ",
  
 var videoRow = document.getElementById("videoRow");
 
-for (var i = 0; i < videoLinks.length; i++) {
-  var link = videoLinks[i];
 
-  var colDiv = document.createElement("div");
-  colDiv.className = "col-xl-4 col-xxl-4 col-lg-6 col-md-6 text-center";
 
-  var cardDiv = document.createElement("div");
-  cardDiv.className = "card";
-  cardDiv.style.boxShadow="    #6a1b9a63 9px 9px 14px 2px";
 
-  var iframe = document.createElement("iframe");
-  iframe.style.aspectRatio = 16/9;
- 
-  iframe.src = link;
-  iframe.title = "YouTube video player";
-  iframe.frameborder = "0";
-  iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;fullscreen";
-  iframe.allowfullscreen = true; // تم تفعيل ملء الشاشة هنا
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
-  var cardBodyDiv = document.createElement("div");
-  cardBodyDiv.className = "card-body";
-
-  var heading = document.createElement("h3");
-  heading.textContent = videoNames[i];
-
-  // var open = document.createElement("a");
-  // open.style.backgroundColor = "rgb(70, 35, 245)";
-  // open.style.display = "block";
-  // open.style.width = "200px";
-  // open.style.height = "30px";
-  // open.style.lineHeight = "30px";
-  // open.style.color = "white";
-  // open.style.borderRadius = "20px";
-  // open.style.margin = "auto";
-
-  // open.textContent = " فتح ";
-  // open.href = link;
-
-  cardBodyDiv.appendChild(heading);
-  // cardBodyDiv.appendChild(open);
-  cardDiv.appendChild(iframe);
-  cardDiv.appendChild(cardBodyDiv);
-  colDiv.appendChild(cardDiv);
-  videoRow.appendChild(colDiv);
-
- 
-}
 
 
 Files = document.getElementById("Files");
