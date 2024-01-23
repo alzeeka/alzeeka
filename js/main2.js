@@ -4,15 +4,21 @@
 
 
 $(document).ready(function() {
-   var videoLinks = ["https://www.youtube.com/embed/gYlCQv8b8Dw?si=7B66tGjQBnY5vLql"];
+   var videoLinks = ["https://www.youtube.com/embed/nGRprT2rHsg?si=L1PC_e0ey2aJaHZw",
+                    "https://www.youtube.com/embed/44xEY60Rhqs?si=kqY6pKQ4Bo-IMRDj",
+                    "https://www.youtube.com/embed/XyKZjk4Q8V4?si=d4s3P8wigtMYfDKR",
+                    "https://www.youtube.com/embed/4nLfyLKeyuE?si=iw9tA3RPoPMFGG5y"];
 
 
-  var videoNames = [ " شرح عملي | Encapsulation "];
+  var videoNames = [ "L1.1 Review of Basic Java","L1.2 what is OOP","L 1.3 | Exercises program","L1.4 UML Class Diagram"];
 
-  var videoLinks1 = ["https://www.youtube.com/embed/gYlCQv8b8Dw?si=7B66tGjQBnY5vLql"];
+  var videoLinks1 = ["https://www.youtube.com/embed/nGRprT2rHsg?si=L1PC_e0ey2aJaHZw",
+                    "https://www.youtube.com/embed/44xEY60Rhqs?si=kqY6pKQ4Bo-IMRDj",
+                    "https://www.youtube.com/embed/XyKZjk4Q8V4?si=d4s3P8wigtMYfDKR",
+                    "https://www.youtube.com/embed/4nLfyLKeyuE?si=iw9tA3RPoPMFGG5y"];
 
 
-  var videoNames1 = [ " شرح عملي | Encapsulation "];
+  var videoNames1 = [ "L1.1 Review of Basic Java","L1.2 what is OOP","L 1.3 | Exercises program","L1.4 UML Class Diagram"];
 
 
   var videoLinks2 = [];
@@ -161,11 +167,11 @@ var HvideoNames = [];
 //###########################################################################################################
 
  var FileLinks = ["https://drive.google.com/drive/folders/1WCYXJoXEJccJ2AvM1gPiJI4zbExhvIYX?usp=sharing",
-"pdf/CSCE102/Encapsulision.pdf"];
+"pdf/CSCE102/L1 Basic Java and OOP.pdf"];
 
 
 var FileNames = [ " جميع الملفات ",
-" Encapsulation ملخص "];
+" Lectuer 1 ملخص "];
 
 
 
