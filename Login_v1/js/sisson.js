@@ -7,10 +7,10 @@ $(document).ready(function() {
 
 
   
-const ESM = ["cf0091cea7c8ee7327dc3a3d2845f94b","11b9e65ecd8eee8c9a545e8ee7f09bdc",  "735f33abd0d7909db1c7164370712266","735f33abd0d7909db1c7164370712266"];
+const ESM = ["9193ce3b31332b03f7d8af056c692b84","11b9e65ecd8eee8c9a545e8ee7f09bdc","4ae3a57b0fb307c3725789e947ecc62c","f7923cb06eb10f2588d597dd4cc35d7c"];
 
 
-const KLM = ["CSCE101", "CSCE102", "intro", "CPluse"];
+const KLM = ["CSCE101", "CSCE102","CSCE102","CSCE102"];
 
 
 
