@@ -21,10 +21,10 @@ $(document).ready(function() {
   var videoNames1 = [ "L1.1 Review of Basic Java","L1.2 what is OOP","L 1.3 | Exercises program","L1.4 UML Class Diagram"];
 
 
-  var videoLinks2 = [];
+  var videoLinks2 = ["https://www.youtube.com/embed/9f1VpSqAfd8?si=268DfjdgkPNhE77Y"];
 
 
-  var videoNames2 = [];
+  var videoNames2 = ["L2.1 Inheritance"];
 
 
   var videoLinks3 = [];
