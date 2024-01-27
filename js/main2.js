@@ -417,8 +417,9 @@ li1.addEventListener("click", function() {
 
 
   li2.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+    HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks2;
     videoNames = videoNames2 ;
@@ -428,8 +429,9 @@ li1.addEventListener("click", function() {
   });
 
   li3.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+   HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks3;
     videoNames = videoNames3 ;
@@ -438,8 +440,9 @@ li1.addEventListener("click", function() {
   
   });
   li4.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+    HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks4;
     videoNames = videoNames4 ;
@@ -448,8 +451,9 @@ li1.addEventListener("click", function() {
   
   });
   li5.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+    HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks5;
     videoNames = videoNames5 ;
@@ -472,8 +476,9 @@ li1.addEventListener("click", function() {
 
 
   li7.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+   HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks7;
     videoNames = videoNames7 ;
@@ -483,8 +488,9 @@ li1.addEventListener("click", function() {
   });
 
   li8.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+    HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks8;
     videoNames = videoNames8 ;
@@ -493,8 +499,9 @@ li1.addEventListener("click", function() {
   
   });
   li9.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+   HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks9;
     videoNames = videoNames9 ;
@@ -503,9 +510,9 @@ li1.addEventListener("click", function() {
   
   });
   li10.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
-    
+    HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     videoLinks = videoLinks10;
     videoNames = videoNames10 ;
   
@@ -513,8 +520,9 @@ li1.addEventListener("click", function() {
   
   });
   li11.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
-    videoRow.innerHTML = "";
+   HomeWork.style.display="none";   
+  videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks11;
     videoNames = videoNames11 ;
@@ -572,6 +580,7 @@ const Ali11 = document.querySelector("#AL11");
   Ali2.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = AvideoLinks2;
     videoNames = AvideoNames2 ;
@@ -583,6 +592,7 @@ const Ali11 = document.querySelector("#AL11");
   li3.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks3;
     videoNames = videoNames3 ;
@@ -593,6 +603,7 @@ const Ali11 = document.querySelector("#AL11");
   li4.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks4;
     videoNames = videoNames4 ;
@@ -603,6 +614,7 @@ const Ali11 = document.querySelector("#AL11");
   li5.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks5;
     videoNames = videoNames5 ;
@@ -625,8 +637,9 @@ const Ali11 = document.querySelector("#AL11");
 
 
   li7.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
+   HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks7;
     videoNames = videoNames7 ;
@@ -638,6 +651,7 @@ const Ali11 = document.querySelector("#AL11");
   li8.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks8;
     videoNames = videoNames8 ;
@@ -648,6 +662,7 @@ const Ali11 = document.querySelector("#AL11");
   li9.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks9;
     videoNames = videoNames9 ;
@@ -658,6 +673,7 @@ const Ali11 = document.querySelector("#AL11");
   li10.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks10;
     videoNames = videoNames10 ;
@@ -666,8 +682,9 @@ const Ali11 = document.querySelector("#AL11");
   
   });
   li11.addEventListener("click", function() {
-    HomeWork.style.display="none"; 
+   HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
+    Files.innerHTML="";
     
     videoLinks = videoLinks11;
     videoNames = videoNames11 ;
