@@ -167,11 +167,11 @@ var HvideoNames = [];
 //###########################################################################################################
 
  var FileLinks = ["https://drive.google.com/drive/folders/1WCYXJoXEJccJ2AvM1gPiJI4zbExhvIYX?usp=sharing",
-"pdf/CSCE102/L1 Basic Java and OOP.pdf"];
+"pdf/CSCE102/L1 Basic Java and OOP.pdf","pdf/CSCE102/Lec 2 Inheritance.pdf"];
 
 
 var FileNames = [ " جميع الملفات ",
-" Lectuer 1 ملخص "];
+" Lectuer 1 ملخص "," Lectuer 2 ملخص "];
 
 
 
