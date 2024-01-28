@@ -21,10 +21,11 @@ $(document).ready(function() {
   var videoNames1 = [ "L1.1 Review of Basic Java","L1.2 what is OOP","L 1.3 | Exercises program","L1.4 UML Class Diagram"];
 
 
-  var videoLinks2 = ["https://www.youtube.com/embed/9f1VpSqAfd8?si=268DfjdgkPNhE77Y"];
+  var videoLinks2 = ["https://www.youtube.com/embed/9f1VpSqAfd8?si=268DfjdgkPNhE77Y","https://www.youtube.com/embed/PER6SVafNv8?si=5dZVljEcSzrk3-qu",
+                    "https://www.youtube.com/embed/WBM-Pb24K5g?si=HgyRGSVg57R3Ggkp"];
 
 
-  var videoNames2 = ["L2.1 Inheritance"];
+  var videoNames2 = ["L2.1 Inheritance","L2.2 Types of Inheritance","L2.3 overriding , super & this keywords"];
 
 
   var videoLinks3 = [];
