@@ -22,10 +22,10 @@ $(document).ready(function() {
 
 
   var videoLinks2 = ["https://www.youtube.com/embed/9f1VpSqAfd8?si=268DfjdgkPNhE77Y","https://www.youtube.com/embed/PER6SVafNv8?si=5dZVljEcSzrk3-qu",
-                    "https://www.youtube.com/embed/WBM-Pb24K5g?si=HgyRGSVg57R3Ggkp"];
+                    "https://www.youtube.com/embed/WBM-Pb24K5g?si=HgyRGSVg57R3Ggkp","https://www.youtube.com/embed/7cYAizkzyXI?si=vS-PIbCCN2l7CCW-"];
 
 
-  var videoNames2 = ["L2.1 Inheritance","L2.2 Types of Inheritance","L2.3 overriding , super & this keywords"];
+  var videoNames2 = ["L2.1 Inheritance","L2.2 Types of Inheritance","L2.3 overriding , super & this keywords","L2.4 Object Class"];
 
 
   var videoLinks3 = [];
