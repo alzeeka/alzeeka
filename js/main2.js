@@ -733,7 +733,7 @@ HomeWork = document.querySelector("#HomeWork");
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
     Files.innerHTML="";
-    videoLinks = RelzNames;
+    videoLinks = RelzLinks;
     videoNames = RelzNames ;
    
   
