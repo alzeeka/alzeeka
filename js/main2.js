@@ -125,7 +125,13 @@ var HvideoNames = [];
 //###########################################################################################################
 
 
+ var RelzLinks = ["https://www.youtube.com/embed/jBMcJr3YEmY?si=iJe1uTJ5XclF3p6Q"
+];
 
+
+var RelzNames = [ 
+" حل تمرين عملي "
+];
 
 
 
@@ -722,7 +728,18 @@ HomeWork = document.querySelector("#HomeWork");
 
   
   
- 
+ const relz = document.querySelector("#relz");
+    relz.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = RelzNames;
+    videoNames = RelzNames ;
+   
+  
+  window.onload();
+  
+  });
 
 
 
