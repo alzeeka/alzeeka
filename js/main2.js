@@ -28,10 +28,10 @@ $(document).ready(function() {
   var videoNames2 = ["L2.1 Inheritance","L2.2 Types of Inheritance","L2.3 overriding , super & this keywords","L2.4 Object Class"];
 
 
-  var videoLinks3 = [];
+  var videoLinks3 = ["https://www.youtube.com/embed/e7K_viBqhY0?si=gFwoFUcKyJLxG5-g","https://www.youtube.com/embed/5Dc-LQ6plqw?si=qzKp9jXCeMdwPTOr"];
 
 
-  var videoNames3 = [];
+  var videoNames3 = ["L3.1 | Polymorphism" ,"L3.2 | Overriding VS Overloading" ];
 
 
 
@@ -174,11 +174,11 @@ var RelzNames = [
 //###########################################################################################################
 
  var FileLinks = ["https://drive.google.com/drive/folders/1WCYXJoXEJccJ2AvM1gPiJI4zbExhvIYX?usp=sharing",
-"pdf/CSCE102/L1 Basic Java and OOP.pdf","pdf/CSCE102/Lec 2 Inheritance.pdf"];
+"pdf/CSCE102/L1 Basic Java and OOP.pdf","pdf/CSCE102/Lec 2 Inheritance.pdf","pdf/CSCE102/Lec 3 polymorphism.pdf"];
 
 
 var FileNames = [ " جميع الملفات ",
-" Lectuer 1 ملخص "," Lectuer 2 ملخص "];
+" Lectuer 1 ملخص "," Lectuer 2 ملخص "," Lectuer 3 ملخص "];
 
 
 
