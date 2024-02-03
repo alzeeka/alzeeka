@@ -28,10 +28,11 @@ $(document).ready(function() {
   var videoNames2 = ["L2.1 Inheritance","L2.2 Types of Inheritance","L2.3 overriding , super & this keywords","L2.4 Object Class"];
 
 
-  var videoLinks3 = ["https://www.youtube.com/embed/e7K_viBqhY0?si=gFwoFUcKyJLxG5-g","https://www.youtube.com/embed/5Dc-LQ6plqw?si=qzKp9jXCeMdwPTOr"];
+  var videoLinks3 = ["https://www.youtube.com/embed/e7K_viBqhY0?si=gFwoFUcKyJLxG5-g","https://www.youtube.com/embed/5Dc-LQ6plqw?si=qzKp9jXCeMdwPTOr"و
+                    "https://www.youtube.com/embed/VifL1gjXNws?si=20mibTBGkd1-LrLM"];
 
 
-  var videoNames3 = ["L3.1 | Polymorphism" ,"L3.2 | Overriding VS Overloading" ];
+  var videoNames3 = ["L3.1 | Polymorphism" ,"L3.2 | Overriding VS Overloading","L3.3 | Upcasting and Downcasting" ];
 
 
 
