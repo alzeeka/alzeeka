@@ -126,12 +126,12 @@ var HvideoNames = [];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/jBMcJr3YEmY?si=iJe1uTJ5XclF3p6Q"
+ var RelzLinks = ["https://www.youtube.com/embed/jBMcJr3YEmY?si=iJe1uTJ5XclF3p6Q","https://www.youtube.com/embed/FGwjWxI2d9w?si=ZbHrkBtXNU9psr-l"
 ];
 
 
 var RelzNames = [ 
-" حل تمرين عملي "
+" حل تمرين عملي ","inhertince types"
 ];
 
 
