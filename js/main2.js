@@ -141,6 +141,19 @@ var RelzNames = [
 
 
 
+  
+ var BankLinks = ["https://www.youtube.com/embed/G52Z3i206Ro?si=aVppF2gJo7DOe8JH","https://www.youtube.com/embed/9eVZB0MSObE?si=kW8qDX2RnuXdlYyw"
+];
+
+
+var BankNames = [ 
+"L1 oop Quiz ","L2 inhertince Quiz"
+];
+
+
+
+
+
 
 
 
@@ -745,7 +758,18 @@ HomeWork = document.querySelector("#HomeWork");
 
 
 
-
+ const bank = document.querySelector("#bank");
+    bank.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = BankLinks;
+    videoNames = BankNames ;
+   
+  
+  window.onload();
+  
+  });
 
 
 
