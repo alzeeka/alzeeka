@@ -36,6 +36,14 @@ $(document).ready(function() {
 
 
 
+  var videoLinks5 = ["https://www.youtube.com/embed/DjB_yftsGDM?si=pBqld15hirH8sbjE","https://www.youtube.com/embed/3b366oDHp0w?si=1MyynBfHaviE1gUl",
+                    "https://www.youtube.com/embed/kXfeP7EWi9Y?si=y7uwhtuIOJRT4KFE"];
+
+
+  var videoNames5 = ["L5.1 | Encapsulation" ,"L5.2 | lombok","L5.3 | inner class" ];
+
+
+
 
 
 
