@@ -35,10 +35,10 @@ $(document).ready(function() {
   " كتابة اول برنامج عملي"];
 
 
-  var videoLinks2 = ["https://www.youtube.com/embed/b1PBy4rKd3M?si=fEMnRApSPpFF3F7f"];
+  var videoLinks2 = ["https://www.youtube.com/embed/b1PBy4rKd3M?si=fEMnRApSPpFF3F7f","https://www.youtube.com/embed/TVvrOF-8tsA?si=morPBJqxu9fZH3f5"];
 
 
-  var videoNames2 = ["L2.1 java program sturactuer"];
+  var videoNames2 = ["L2.1 java program sturactuer" , "L2.2 Declaretion"];
 
 
   var videoLinks3 = ["https://www.youtube.com/embed/h7uwtyU4OK0?si=IItFoPIQbc90NvRp","https://www.youtube.com/embed/lW_Ip6l_tr0?si=XBHqk3X5tGnxEhBW","https://www.youtube.com/embed/p4CQZ5uM5N8?si=I7PfGvQmWOO5TufY"];
