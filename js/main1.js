@@ -41,10 +41,21 @@ $(document).ready(function() {
   var videoNames2 = [];
 
 
-  var videoLinks3 = [];
+  var videoLinks3 = ["https://www.youtube.com/embed/h7uwtyU4OK0?si=IItFoPIQbc90NvRp","https://www.youtube.com/embed/lW_Ip6l_tr0?si=XBHqk3X5tGnxEhBW","https://www.youtube.com/embed/p4CQZ5uM5N8?si=I7PfGvQmWOO5TufY"];
 
 
-  var videoNames3 = [];
+  var videoNames3 = ["L3.1 declaration and assignment cont...","L3.2 class String","L3.3 class String Examples"];
+
+    var videoLinks4 = ["https://www.youtube.com/embed/wGTVKb3eG5Q?si=C0yQL4V9tqg_Fya1","https://www.youtube.com/embed/5EXe021kBgY?si=dhm1c7pUKzZ_8Pi4","https://www.youtube.com/embed/IK71utrybeU?si=qQ5DoRQoAz55aFFf"];
+
+
+  var videoNames4 = ["L4.1 output, money format","L4.2 console input","L4.3 Examples and Delimiter"];
+
+
+ var videoLinks5 = ["https://www.youtube.com/embed/4B3aBzDDt6I?si=O0oMhMiWOi99VJUq"];
+
+
+  var videoNames5 = ["L5.1 Flow of Control , if statement"];
 
 
 
@@ -181,11 +192,11 @@ var HvideoNames = [];
 //###########################################################################################################
 
  var FileLinks = ["https://drive.google.com/drive/folders/1D2xgmTF2xCWB5sVN9YZfZXfg2UFKBfV-?usp=drive_link",
-"pdf/CSCE101/L1M.pdf"];
+"pdf/CSCE101/L1M.pdf","pdf/CSCE101/‏‏‏‏‏‏lectuer 2 ملخص.pdf"];
 
 
 var FileNames = [ " جميع الملفات ",
-" ملخص محاضرة 1 "];
+" ملخص محاضرة 2 "," ملخص محاضرة 1 "];
 
 
 
