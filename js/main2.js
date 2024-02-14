@@ -78,10 +78,10 @@ var AvideoLinks1 = ["https://www.youtube.com/embed/gYlCQv8b8Dw?si=7B66tGjQBnY5vL
 var AvideoNames1 = [ " شرح عملي | Encapsulation " ];
 
 
-var AvideoLinks2 = [];
+var AvideoLinks2 = ["https://www.youtube.com/embed/CK9H7ovymAM?si=y9uQH5xYBatTsp4M"];
 
 
-var AvideoNames2 = [];
+var AvideoNames2 = [" د: نايف العنزي  | lab 2 " ];
 
 
 var AvideoLinks3 = [];
