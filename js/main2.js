@@ -157,12 +157,13 @@ var RelzNames = [
 
   
  var BankLinks = ["https://www.youtube.com/embed/G52Z3i206Ro?si=aVppF2gJo7DOe8JH","https://www.youtube.com/embed/9eVZB0MSObE?si=kW8qDX2RnuXdlYyw",
-                  "https://www.youtube.com/embed/VEyIhXs-1aw?si=HkMcK1Cfzeyjskij","https://www.youtube.com/embed/uX-lEmw_6o4?si=Mp1MdJR0skBigzNf"
+                  "https://www.youtube.com/embed/VEyIhXs-1aw?si=HkMcK1Cfzeyjskij","https://www.youtube.com/embed/uX-lEmw_6o4?si=Mp1MdJR0skBigzNf",
+                  "https://www.youtube.com/embed/5nEITATrnZE?si=hwR6tK6RLdzTr2xE"
 ];
 
 
 var BankNames = [ 
-"L1 oop Quiz ","L2 inhertince Quiz" ,"L3 polymorphism Quiz" ,"L4 Emcapsulastion Quiz"
+"L1 oop Quiz ","L2 inhertince Quiz" ,"L3 polymorphism Quiz" ,"L4 Abstraction Quiz","L5 Encapsulastion Quiz"
 ];
 
 
