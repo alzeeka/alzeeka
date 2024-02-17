@@ -204,11 +204,12 @@ var BankNames = [
 //###########################################################################################################
 
  var FileLinks = ["https://drive.google.com/drive/folders/1WCYXJoXEJccJ2AvM1gPiJI4zbExhvIYX?usp=sharing",
-"pdf/CSCE102/L1 Basic Java and OOP.pdf","pdf/CSCE102/Lec 2 Inheritance.pdf","pdf/CSCE102/Lec 3 polymorphism.pdf","pdf/CSCE102/Lec 5 Encapsulation.pdf"];
+"pdf/CSCE102/L1 Basic Java and OOP.pdf","pdf/CSCE102/Lec 2 Inheritance.pdf","pdf/CSCE102/Lec 3 polymorphism.pdf","pdf/CSCE102/Lec 4 Abstraction.pdf",
+                  "pdf/CSCE102/Lec 5 Encapsulation.pdf"];
 
 
 var FileNames = [ " جميع الملفات ",
-" Lectuer 1 ملخص "," Lectuer 2 ملخص "," Lectuer 3 ملخص "," Lectuer 5 ملخص "];
+" Lectuer 1 ملخص "," Lectuer 2 ملخص "," Lectuer 3 ملخص "," Lectuer 4 ملخص "," Lectuer 5 ملخص "];
 
 
 
