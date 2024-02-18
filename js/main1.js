@@ -81,7 +81,7 @@ var AvideoNames = [
 "  كتابة اول برنامج عملي "
 ];
 
-var AvideoLinks1 = ["https://www.youtube.com/embed/Bne2jPhQMrc?si=LdeR80yKfrsRrxDS","https://www.youtube.com/embed/Vl51ryeWZy4?si=GS05q8YHfbwBIVpy"];
+var AvideoLinks1 = ["https://www.youtube.com/embed/ydlm0P4yFeQ?si=sY75-mj5CqpHfvaO","https://www.youtube.com/embed/Vl51ryeWZy4?si=GS05q8YHfbwBIVpy"];
 
 
 var AvideoNames1 = [ "  كتابة اول برنامج عملي " ,  "Lab 1 print"];
