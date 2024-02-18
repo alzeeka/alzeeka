@@ -627,13 +627,13 @@ const Ali11 = document.querySelector("#AL11");
   
   });
 
-  li3.addEventListener("click", function() {
+  Ali3.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
     Files.innerHTML="";
     
-    videoLinks = videoLinks3;
-    videoNames = videoNames3 ;
+    videoLinks = AvideoLinks3;
+    videoNames = AvideoNames3 ;
   
   window.onload();
   
