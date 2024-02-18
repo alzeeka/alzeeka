@@ -93,10 +93,10 @@ var AvideoLinks2 = [];
 var AvideoNames2 = [];
 
 
-var AvideoLinks3 = [];
+var AvideoLinks3 = ["https://www.youtube.com/embed/wy4IR3GIpPs?si=Pm7mGItbNkAzvdO_","https://www.youtube.com/embed/dh-nblXPO7A?si=06ikCV0BzqBwmygk"];
 
 
-var AvideoNames3 = [];
+var AvideoNames3 = ["Lab 3.1 class String","Lab 3.2 Exercises"];
 
 
 
