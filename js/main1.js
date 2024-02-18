@@ -99,7 +99,16 @@ var AvideoLinks3 = ["https://www.youtube.com/embed/wy4IR3GIpPs?si=Pm7mGItbNkAzvd
 var AvideoNames3 = ["Lab 3.1 class String","Lab 3.2 Exercises"];
 
 
+var AvideoLinks4 = [];
 
+
+var AvideoNames4 = [];
+
+
+  var AvideoLinks5 = [];
+
+
+var AvideoNames5 = [];
 
 
 
@@ -604,32 +613,35 @@ const Ali11 = document.querySelector("#AL11");
   
   });
 
-  li3.addEventListener("click", function() {
+  Ali3.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
     
-    videoLinks = videoLinks3;
-    videoNames = videoNames3 ;
+    videoLinks = AvideoLinks3;
+    videoNames = AvideoNames3 ;
   
   window.onload();
   
   });
-  li4.addEventListener("click", function() {
+
+   Ali4.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
     
-    videoLinks = videoLinks4;
-    videoNames = videoNames4 ;
+    videoLinks = AvideoLinks4;
+    videoNames = AvideoNames4 ;
   
   window.onload();
   
-  });
-  li5.addEventListener("click", function() {
+  }); 
+
+
+ Ali5.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
     
-    videoLinks = videoLinks5;
-    videoNames = videoNames5 ;
+    videoLinks = AvideoLinks5;
+    videoNames = AvideoNames5 ;
   
   window.onload();
   
