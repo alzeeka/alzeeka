@@ -84,10 +84,10 @@ var AvideoLinks2 = ["https://www.youtube.com/embed/CK9H7ovymAM?si=y9uQH5xYBatTsp
 var AvideoNames2 = [" د: نايف العنزي  | lab 2 " ];
 
 
-var AvideoLinks3 = [];
+var AvideoLinks3 = ["https://www.youtube.com/embed/foalO8O-eS4?si=Ys6Hp7I92sXzPxhR","https://www.youtube.com/embed/GD1MKWrTtX0?si=a0ipwYs-hrR55PWQ","https://www.youtube.com/embed/V0tmuAl9sQA?si=9OQvBwtqrY5HRGc_"];
 
 
-var AvideoNames3 = [];
+var AvideoNames3 = [" د: نايف العنزي  | lab 3.1 " , " د: نايف العنزي  | lab 3.2 " ," د: نايف العنزي  | lab 3.3 "];
 
 
 
