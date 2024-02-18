@@ -81,16 +81,16 @@ var AvideoNames = [
 "  كتابة اول برنامج عملي "
 ];
 
-var AvideoLinks1 = ["https://www.youtube.com/embed/Bne2jPhQMrc?si=LdeR80yKfrsRrxDS"];
+var AvideoLinks1 = ["https://www.youtube.com/embed/Bne2jPhQMrc?si=LdeR80yKfrsRrxDS","https://www.youtube.com/embed/Vl51ryeWZy4?si=GS05q8YHfbwBIVpy"];
 
 
-var AvideoNames1 = [ "  كتابة اول برنامج عملي " ];
+var AvideoNames1 = [ "  كتابة اول برنامج عملي " ,  "Lab 1 print"];
 
 
-var AvideoLinks2 = [];
+var AvideoLinks2 = ["https://www.youtube.com/embed/Y5wvUIW0fy0?si=wY8omdOcTlNH_i3I" ,"https://www.youtube.com/embed/5yCpe074Yz4?si=9C3loe_LjEWMqWtr" ];
 
 
-var AvideoNames2 = [];
+var AvideoNames2 = ["Lab 2.1 variables","Lab 2.2 Exercises"];
 
 
 var AvideoLinks3 = ["https://www.youtube.com/embed/wy4IR3GIpPs?si=Pm7mGItbNkAzvdO_","https://www.youtube.com/embed/dh-nblXPO7A?si=06ikCV0BzqBwmygk"];
