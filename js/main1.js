@@ -192,11 +192,10 @@ var HvideoNames = [];
 //###########################################################################################################
 
  var FileLinks = ["https://drive.google.com/drive/folders/1D2xgmTF2xCWB5sVN9YZfZXfg2UFKBfV-?usp=drive_link",
-"pdf/CSCE101/L1M.pdf","pdf/CSCE101/‏‏‏‏‏‏lectuer 2 ملخص.pdf"];
+"pdf/CSCE101/L1M.pdf","pdf/CSCE101/‏‏‏‏‏‏lectuer 2 ملخص.pdf","pdf/CSCE101/L1M.pdf","pdf/CSCE101/‏‏‏‏‏‏lectuer 3 ملخص.pdf"];
 
 
-var FileNames = [ " جميع الملفات ",
-" ملخص محاضرة 2 "," ملخص محاضرة 1 "];
+var FileNames = [ " جميع الملفات ","L1 ملخص","L2 ملخص","L3 ملخص"];
 
 
 
