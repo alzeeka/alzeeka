@@ -220,7 +220,14 @@ var FileNames = [ " جميع الملفات ","L1 ملخص","L2 ملخص","L3 م
 //###########################################################################################################
 
 
+ var BankLinks = ["https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
+                  "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
+];
 
+
+var BankNames = [ 
+"Output Quiz ","L1 Quiz" ,"if Statement Quiz" 
+];
 
 
 
@@ -738,7 +745,18 @@ HomeWork = document.querySelector("#HomeWork");
 
 
 
+   const bank = document.querySelector("#bank");
+    bank.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = BankLinks;
+    videoNames = BankNames ;
+   
   
+  window.onload();
+  
+  });
   
  
 
