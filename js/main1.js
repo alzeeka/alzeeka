@@ -221,12 +221,12 @@ var FileNames = [ " جميع الملفات ","L1 ملخص","L2 ملخص","L3 م
 
 
  var BankLinks = ["https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
-                  "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
+                  "https://www.youtube.com/embed/z3bf6wsKTxw?si=pSSUlM_rPQSe6--e","https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
 ];
 
 
 var BankNames = [ 
-"Output Quiz ","L1 Quiz" ,"if Statement Quiz" 
+"Output Quiz ","L1 Quiz" ,"Quiz1 من الترم السابق","if Statement Quiz" 
 ];
 
 
