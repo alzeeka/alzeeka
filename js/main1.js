@@ -97,13 +97,14 @@ var AvideoNames2 = ["Lab 2.1 variables","Lab 2.2 Exercises"];
 var AvideoLinks3 = ["https://www.youtube.com/embed/wy4IR3GIpPs?si=Pm7mGItbNkAzvdO_","https://www.youtube.com/embed/dh-nblXPO7A?si=06ikCV0BzqBwmygk"];
 
 
-var AvideoNames3 = ["Lab 3.1 class String","Lab 3.2 Exercises"];
+var AvideoNames3 = ["Lab 3.1 class String","Lab 3.2 Exercises  الأكواد المستخدمة بوصف الفيديو"];
 
 
-var AvideoLinks4 = [];
+var AvideoLinks4 = ["https://www.youtube.com/embed/xATOnPwAi20?si=QNB4KFnPKqik2Woc","https://www.youtube.com/embed/Xls_tSzjVUk?si=pbzebcJjFWdr-ZRC",
+                   "https://www.youtube.com/embed/YRaCoBjS2z4?si=nXfn3syxxNEPgdkf"];
 
 
-var AvideoNames4 = [];
+var AvideoNames4 = ["Lab 4.1 Console input & Output","Lab 4.2 Exercise الأكواد المستخدمة بوصف الفيديو","Lab 4.3 Assignment  الأكواد المستخدمة بوصف الفيديو"];
 
 
   var AvideoLinks5 = [];
