@@ -53,10 +53,10 @@ $(document).ready(function() {
   var videoNames4 = ["L4.1 output, money format","L4.2 console input","L4.3 Examples and Delimiter"];
 
 
- var videoLinks5 = ["https://www.youtube.com/embed/4B3aBzDDt6I?si=O0oMhMiWOi99VJUq"];
+ var videoLinks5 = ["https://www.youtube.com/embed/bTGgBLhRBYY?si=YAtUZ5yQ49SlTvdU","https://www.youtube.com/embed/Ir-BT_0dNkk?si=IfNKXTXF9yP7SGEj"];
 
 
-  var videoNames5 = ["L5.1 Flow of Control , if statement"];
+  var videoNames5 = ["L5.1 Flow of Control 1","L5.2 if - if-else - nested if"];
 
 
 
