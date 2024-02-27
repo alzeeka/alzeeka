@@ -53,10 +53,11 @@ $(document).ready(function() {
   var videoNames4 = ["L4.1 output, money format","L4.2 console input","L4.3 Examples and Delimiter"];
 
 
- var videoLinks5 = ["https://www.youtube.com/embed/bTGgBLhRBYY?si=YAtUZ5yQ49SlTvdU","https://www.youtube.com/embed/Ir-BT_0dNkk?si=IfNKXTXF9yP7SGEj"];
+ var videoLinks5 = ["https://www.youtube.com/embed/bTGgBLhRBYY?si=YAtUZ5yQ49SlTvdU","https://www.youtube.com/embed/Ir-BT_0dNkk?si=IfNKXTXF9yP7SGEj",
+                   "https://www.youtube.com/embed/KuvT5zxuJiU?si=72OJ8NXSbJxj4ETR","https://www.youtube.com/embed/P0015CPLQ_8?si=bC0B2OlBnQGm5Q4X"];
 
 
-  var videoNames5 = ["L5.1 Flow of Control 1","L5.2 if - if-else - nested if"];
+  var videoNames5 = ["L5.1 Flow of Control 1","L5.2 if - if-else - nested if","L5.3 Switch Statement","L5.4 boolean Excepertion"];
 
 
 
