@@ -91,7 +91,10 @@ var AvideoNames3 = [" د: نايف العنزي  | lab 3.1 " , " د: نايف ا
 
 
 
+var AvideoLinks4 = ["https://www.youtube.com/embed/-luNnaDVra0?si=LCsNsVKcN4BIJm13","https://www.youtube.com/embed/KMDdqOcgSkM?si=PTw5R-6WewnhDzd2","https://www.youtube.com/embed/MRAIXh6JBwU?si=dtAVT2XN3VPauZV9"];
 
+
+var AvideoNames4 = [" الأكواد المستخدمة بوصف الفيديو  | lab 4.1 polymorphism" , "الأكواد المستخدمة بوصف الفيديو   | lab 4.2 " ," الأكواد المستخدمة بوصف الفيديو   | lab 4.3 "];
 
 
 
@@ -634,6 +637,30 @@ const Ali11 = document.querySelector("#AL11");
     
     videoLinks = AvideoLinks3;
     videoNames = AvideoNames3 ;
+  
+  window.onload();
+  
+  });
+
+    Ali4.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    
+    videoLinks = AvideoLinks4;
+    videoNames = AvideoNames4 ;
+  
+  window.onload();
+  
+  });
+
+  Ali5.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    
+    videoLinks = AvideoLinks5;
+    videoNames = AvideoNames5 ;
   
   window.onload();
   
