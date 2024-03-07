@@ -143,12 +143,12 @@ var HvideoNames = [];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/jBMcJr3YEmY?si=iJe1uTJ5XclF3p6Q","https://www.youtube.com/embed/FGwjWxI2d9w?si=ZbHrkBtXNU9psr-l",
+ var RelzLinks = ["https://www.youtube.com/embed/tyxyDHMREkc?si=8q-Nz_VskFzi9SON","https://www.youtube.com/embed/jBMcJr3YEmY?si=iJe1uTJ5XclF3p6Q","https://www.youtube.com/embed/FGwjWxI2d9w?si=ZbHrkBtXNU9psr-l",
 "https://www.youtube.com/embed/y6m07BMPfSE?si=fq9Td6mYIE1VuUW_","https://www.youtube.com/embed/O7-M68zQMMc?si=vKU95dIMFq3kaSXa"];
 
 
 var RelzNames = [ 
-" حل تمرين عملي ","inhertince types","anonymous class | الكلاس المجهول","Dynamic binding"
+"كيف اضبط الكود من اونلاين لإيكلبس"," حل تمرين عملي ","inhertince types","anonymous class | الكلاس المجهول","Dynamic binding"
 ];
 
 
