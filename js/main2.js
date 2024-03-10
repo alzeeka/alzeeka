@@ -91,12 +91,16 @@ var AvideoNames3 = [" د: نايف العنزي  | lab 3.1 " , " د: نايف ا
 
 
 
-var AvideoLinks4 = ["https://www.youtube.com/embed/-luNnaDVra0?si=LCsNsVKcN4BIJm13","https://www.youtube.com/embed/KMDdqOcgSkM?si=PTw5R-6WewnhDzd2","https://www.youtube.com/embed/MRAIXh6JBwU?si=dtAVT2XN3VPauZV9"];
+var AvideoLinks4 = ["https://www.youtube.com/embed/-luNnaDVra0?si=LCsNsVKcN4BIJm13","https://www.youtube.com/embed/KMDdqOcgSkM?si=PTw5R-6WewnhDzd2",
+                    "https://www.youtube.com/embed/MRAIXh6JBwU?si=dtAVT2XN3VPauZV9"];
 
 
 var AvideoNames4 = [" الأكواد المستخدمة بوصف الفيديو  | lab 4.1 polymorphism" , "الأكواد المستخدمة بوصف الفيديو   | lab 4.2 " ," الأكواد المستخدمة بوصف الفيديو   | lab 4.3 "];
 
+var AvideoLinks5 = ["https://www.youtube.com/embed/Nl7dEWxxRdw?si=tjC08-jTUghiIvO8","https://www.youtube.com/embed/2Hyo3GcGLTo?si=NOEsolFbWTM6RHYI"];
 
+
+var AvideoNames5 = ["lab 4.1 Abstraction" , "الأكواد المستخدمة بوصف الفيديو   | lab 4.1 Abstraction" ];
 
 
 
@@ -665,6 +669,19 @@ const Ali11 = document.querySelector("#AL11");
   window.onload();
   
   });
+
+    Ali6.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    
+    videoLinks = AvideoLinks6;
+    videoNames = AvideoNames6 ;
+  
+  window.onload();
+  
+  });
+  
   li4.addEventListener("click", function() {
     HomeWork.style.display="none"; 
     videoRow.innerHTML = "";
