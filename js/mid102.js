@@ -109,10 +109,10 @@ var RelzNames = [ ""];
 
 
   
- var BankLinks = [""];
+ var BankLinks = ["https://www.youtube.com/embed/BZRP8qxEeRk?si=8FCi5CtAB22tPLWr"];
 
 
-var BankNames = [ ""];
+var BankNames = [ "شرح نموذج سابق 1"];
 
 
 
