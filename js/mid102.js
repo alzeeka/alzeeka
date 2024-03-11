@@ -36,18 +36,21 @@ $(document).ready(function() {
 //###########################################################################################################
 //###########################################################################################################
 
- var AvideoLinks = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi"
+ var AvideoLinks = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi", "https://www.youtube.com/embed/8WS2_6wtaK0?si=lHe936SEJa-WGxQa"
 ];
 
 
 var AvideoNames = [ 
-  "Quiz 1 | كويزات الترم"
+  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم"
 ];
 
-var AvideoLinks1 = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi"];
+ var AvideoLinks1 = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi", "https://www.youtube.com/embed/8WS2_6wtaK0?si=lHe936SEJa-WGxQa"
+];
 
 
-var AvideoNames1 = [ "Quiz 1 | كويزات الترم"];
+var AvideoNames1 = [ 
+  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم"
+];
 
 
 
