@@ -141,10 +141,11 @@ var AvideoNames5 = [];
 //###########################################################################################################
 
  var HvideoLinks = ["https://www.youtube.com/embed/N1NUSU0j2Vc?si=nks4jYebApKMbkIK","https://www.youtube.com/embed/_o-gR-uniX4?si=OiCeWyIGW-ku7duj",
-                   "https://www.youtube.com/embed/FmvWG88j-B4?si=zUujs_qcvZGM-pIl"];
+                   "https://www.youtube.com/embed/FmvWG88j-B4?si=zUujs_qcvZGM-pIl","https://www.youtube.com/embed/s85rNlbpgvc?si=DO_dS_leDPERCJka",
+                   "https://www.youtube.com/embed/YGbHjFrFoI0?si=xKpqoo53YW93zcT0"];
 
 
-var HvideoNames = ["Assignment1 Q1","Assignment1 Q2 , Q3","Assignment1 Q4 , Q5"];
+var HvideoNames = ["Assignment1 Q1","Assignment1 Q2 , Q3","Assignment1 Q4 , Q5" , "Assignment 3 برنامج ضغط الدم","Assignment 4 String methods by Switch"];
 
 
 
