@@ -167,7 +167,8 @@ var HvideoNames = ["Assignment1 Q1","Assignment1 Q2 , Q3","Assignment1 Q4 , Q5" 
                  "https://www.youtube.com/embed/YGbHjFrFoI0?si=yLN3He0mMLj5vMNQ"];
 
 
-var RelzNames = [ "برنامج ادخال بيانات المستخدم وطباعتهم " , "كيف اطبع جدول ",
+var RelzNames = [ "كيف اطبع جدول او اي شكل",
+"برنامج ادخال بيانات المستخدم وطباعتهم " , 
  "برنامج انشاء كلمات السر" , "برنامج ضغط الدم " , "عمل قائمة بالسويتش" 
 ];
 
