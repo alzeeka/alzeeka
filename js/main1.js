@@ -163,12 +163,12 @@ var HvideoNames = ["Assignment1 Q1","Assignment1 Q2 , Q3","Assignment1 Q4 , Q5" 
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/AMJVuIz7mLM?si=I8nIJgZVe4N_LiV4","https://www.youtube.com/embed/s85rNlbpgvc?si=2OoUjDD-Qf9XQbUS",
+ var RelzLinks = ["https://www.youtube.com/embed/evIx0yv4dwY?si=myYDqCyHczCHao9i","https://www.youtube.com/embed/2ruWBmgnX_0?si=3MNtavaPY3h7fqER","https://www.youtube.com/embed/AMJVuIz7mLM?si=I8nIJgZVe4N_LiV4","https://www.youtube.com/embed/s85rNlbpgvc?si=2OoUjDD-Qf9XQbUS",
                  "https://www.youtube.com/embed/YGbHjFrFoI0?si=yLN3He0mMLj5vMNQ"];
 
 
-var RelzNames = [ 
-"برنامج انشاء كلمات السر" , "برنامج ضغط الدم " , "عمل قائمة بالسويتش"
+var RelzNames = [ "برنامج ادخال بيانات المستخدم وطباعتهم " , "كيف اطبع جدول ",
+ "برنامج انشاء كلمات السر" , "برنامج ضغط الدم " , "عمل قائمة بالسويتش" 
 ];
 
 
