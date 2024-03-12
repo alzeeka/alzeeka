@@ -99,10 +99,10 @@ var HvideoNames = [];
 //###########################################################################################################
 
 
- var RelzLinks = [""];
+ var RelzLinks = ["https://www.youtube.com/embed/rqeGNWDCbKo?si=jKF0cJfbPCeKrJEz"];
 
 
-var RelzNames = [ ""];
+var RelzNames = [ "مراجعة Lectuer 1"];
 
 
 
