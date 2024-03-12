@@ -163,6 +163,13 @@ var HvideoNames = ["Assignment1 Q1","Assignment1 Q2 , Q3","Assignment1 Q4 , Q5" 
 //###########################################################################################################
 
 
+ var RelzLinks = ["https://www.youtube.com/embed/AMJVuIz7mLM?si=I8nIJgZVe4N_LiV4","https://www.youtube.com/embed/s85rNlbpgvc?si=2OoUjDD-Qf9XQbUS",
+                 "https://www.youtube.com/embed/YGbHjFrFoI0?si=yLN3He0mMLj5vMNQ"];
+
+
+var RelzNames = [ 
+"برنامج انشاء كلمات السر" , "برنامج ضغط الدم " , "عمل قائمة بالسويتش"
+];
 
 
 
@@ -749,6 +756,22 @@ HomeWork = document.querySelector("#HomeWork");
   });
 
 
+
+
+   const relz = document.querySelector("#relz");
+    relz.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = RelzLinks;
+    videoNames = RelzNames ;
+   
+  
+  window.onload();
+  
+  });
+
+  
 
 
    const bank = document.querySelector("#bank");
