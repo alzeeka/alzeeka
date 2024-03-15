@@ -111,10 +111,11 @@ var AvideoLinks4 = ["https://www.youtube.com/embed/xATOnPwAi20?si=QNB4KFnPKqik2W
 var AvideoNames4 = ["Lab 4.1 Console input & Output","Lab 4.2 Exercise الأكواد المستخدمة بوصف الفيديو","Lab 4.3 Assignment  الأكواد المستخدمة بوصف الفيديو"];
 
 
-  var AvideoLinks5 = ["https://www.youtube.com/embed/1oG2bQeBNxY?si=TT6qY0pr2zYY7yCU"];
+  var AvideoLinks5 = ["https://www.youtube.com/embed/1oG2bQeBNxY?si=TT6qY0pr2zYY7yCU","https://www.youtube.com/embed/nLzE08cYRlU?si=N3mV9T1GYvC-HgsL",
+                     "https://www.youtube.com/embed/s85rNlbpgvc?si=jd5rUblA7BLTj6p1"];
 
 
-var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else",];
+var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else","Lab 5.2 Exerxises","Lab 5.3 Assignment blood"];
 
 
 
