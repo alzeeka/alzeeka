@@ -97,10 +97,12 @@ var AvideoLinks4 = ["https://www.youtube.com/embed/-luNnaDVra0?si=LCsNsVKcN4BIJm
 
 var AvideoNames4 = [" الأكواد المستخدمة بوصف الفيديو  | lab 4.1 polymorphism" , "الأكواد المستخدمة بوصف الفيديو   | lab 4.2 " ," الأكواد المستخدمة بوصف الفيديو   | lab 4.3 "];
 
-var AvideoLinks5 = ["https://www.youtube.com/embed/Nl7dEWxxRdw?si=tjC08-jTUghiIvO8","https://www.youtube.com/embed/2Hyo3GcGLTo?si=NOEsolFbWTM6RHYI"];
+var AvideoLinks5 = ["https://www.youtube.com/embed/Nl7dEWxxRdw?si=tjC08-jTUghiIvO8","https://www.youtube.com/embed/2Hyo3GcGLTo?si=NOEsolFbWTM6RHYI",
+                   "https://www.youtube.com/embed/0cLK3CZUdJU?si=AXGPOvz58nUHk416","https://www.youtube.com/embed/_tpcNHocgQM?si=gVs_ZBZEa5-jdlBL"];
 
 
-var AvideoNames5 = ["lab 4.1 Abstraction" , "الأكواد المستخدمة بوصف الفيديو   | lab 4.1 Abstraction" ];
+var AvideoNames5 = ["lab 4.1 Abstraction" , "الأكواد المستخدمة بوصف الفيديو   | lab 4.1 Abstraction" ,
+                    "الأكواد المستخدمة بوصف الفيديو   | lab 5.1 Encapsulation" , "الأكواد المستخدمة بوصف الفيديو   | lab 5.2 Encapsulation with home-work"  ];
 
 
 
@@ -126,10 +128,10 @@ var AvideoNames5 = ["lab 4.1 Abstraction" , "الأكواد المستخدمة �
 //###########################################################################################################
 //###########################################################################################################
 
- var HvideoLinks = [];
+ var HvideoLinks = ["https://www.youtube.com/embed/_tpcNHocgQM?si=gVs_ZBZEa5-jdlBL"];
 
 
-var HvideoNames = [];
+var HvideoNames = ["Lab5 Encapsulation Trainning"];
 
 
 
