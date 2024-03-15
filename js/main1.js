@@ -60,7 +60,10 @@ $(document).ready(function() {
   var videoNames5 = ["L5.1 Flow of Control 1","L5.2 if - if-else - nested if","L5.3 Switch Statement","L5.4 boolean Excepertion"];
 
 
+ var videoLinks6 = [];
 
+
+  var videoNames6 = [];
 
 
 
@@ -108,10 +111,10 @@ var AvideoLinks4 = ["https://www.youtube.com/embed/xATOnPwAi20?si=QNB4KFnPKqik2W
 var AvideoNames4 = ["Lab 4.1 Console input & Output","Lab 4.2 Exercise الأكواد المستخدمة بوصف الفيديو","Lab 4.3 Assignment  الأكواد المستخدمة بوصف الفيديو"];
 
 
-  var AvideoLinks5 = [];
+  var AvideoLinks5 = ["https://www.youtube.com/embed/1oG2bQeBNxY?si=TT6qY0pr2zYY7yCU"];
 
 
-var AvideoNames5 = [];
+var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else",];
 
 
 
@@ -665,6 +668,17 @@ const Ali11 = document.querySelector("#AL11");
     
     videoLinks = AvideoLinks5;
     videoNames = AvideoNames5 ;
+  
+  window.onload();
+  
+  });
+
+   Ali6.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    
+    videoLinks = AvideoLinks6;
+    videoNames = AvideoNames6 ;
   
   window.onload();
   
