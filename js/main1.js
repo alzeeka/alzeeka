@@ -128,10 +128,17 @@ var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else","Lab 5.2 Exerxises","
 //###########################################################################################################
 
 var OvideoLinks1 = ["https://www.youtube.com/embed/4wmMeX6p8Q8?si=bVBJ2XC6sEHkYBAi","https://www.youtube.com/embed/AAx81hE3B2o?si=yFgsXzMH2_Uxm-1r",
-                   "https://www.youtube.com/embed/Ea7VwHERjNU?si=iny5qEM5MdU2RXxn","https://www.youtube.com/embed/mEG6QGvAoTE?si=t5o0vYtI9ae9TlST"];
+                   "https://www.youtube.com/embed/Ea7VwHERjNU?si=iny5qEM5MdU2RXxn","https://www.youtube.com/embed/mEG6QGvAoTE?si=t5o0vYtI9ae9TlST",
+                   "https://www.youtube.com/embed/w4SCTucZapo?si=Undrzw1bNANqLL67","https://www.youtube.com/embed/rKgR69ZLD8Q?si=KD2r5hIKaMuQBEXG",
+                   "https://www.youtube.com/embed/1IflU8WaBuY?si=5LcaMXxqh4r6mLFT","https://www.youtube.com/embed/mZ65ZDVxEBc?si=740ZenpyJ5Z4OkUt",
+                   "https://www.youtube.com/embed/hbNH176-OUs?si=fuqFCpVOa5tfZa_O"];
 
 
-var OvideoNames1 = [ "CH1 part 1 java language" ,  "CH 1 part 2 java program and print, الاكواد بوصف الفيديو" , "CH 1 part 3 programming Level","CH 1 part 4 Syntax and Error messages"];
+var OvideoNames1 = [ "CH1 part 1 java language" ,  "CH 1 part 2 java program and print, الاكواد بوصف الفيديو" ,
+                    "CH 1 part 3 programming Level","CH 1 part 4 Syntax and Error messages",
+                   "CH 1 part 5 Declaer and assignment","CH 1 part 6 Variables Names Rules and Shorthand",
+                   "CH 1 part 7 type cast and Athematic operators","CH 1 part 8 tasks & increment & Decrement",
+                   "CH 1 part 9 class String"];
 
 
 
