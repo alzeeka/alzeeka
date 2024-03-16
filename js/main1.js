@@ -127,7 +127,11 @@ var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else","Lab 5.2 Exerxises","
 //###########################################################################################################
 //###########################################################################################################
 
+var OvideoLinks1 = ["https://www.youtube.com/embed/4wmMeX6p8Q8?si=bVBJ2XC6sEHkYBAi","https://www.youtube.com/embed/AAx81hE3B2o?si=yFgsXzMH2_Uxm-1r",
+                   "https://www.youtube.com/embed/Ea7VwHERjNU?si=iny5qEM5MdU2RXxn","https://www.youtube.com/embed/mEG6QGvAoTE?si=t5o0vYtI9ae9TlST"];
 
+
+var OvideoNames1 = [ "CH1 part 1 java language" ,  "CH 1 part 2 java program and print, الاكواد بوصف الفيديو" , "CH 1 part 3 programming Level","CH 1 part 4 Syntax and Error messages"];
 
 
 
@@ -810,10 +814,24 @@ HomeWork = document.querySelector("#HomeWork");
 
 
 
+const CH1 = document.querySelector("#CH1");
+const CH2 = document.querySelector("#CH2");
+const CH3 = document.querySelector("#CH3");
+const CH4 = document.querySelector("#CH4");
 
 
 
-
+  CH1.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = OvideoLinks1;
+    videoNames = OvideoNames1 ;
+   
+  
+  window.onload();
+  
+  });
 
 
 
