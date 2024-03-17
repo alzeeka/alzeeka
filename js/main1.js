@@ -145,7 +145,10 @@ var OvideoNames1 = [ "CH1 part 1 java language" ,  "CH 1 part 2 java program and
                    "CH 1 part 11 Escape Sequences and comment and Exercises"];
 
 
+var OvideoLinks2 = ["https://www.youtube.com/embed/xv0IvN-ucj0?si=brpkv8lXCSM0IyWv"];
 
+
+var OvideoNames2 = [ "CH 2 part 1 consol output print println printf"];
 
 
 
@@ -845,7 +848,17 @@ const CH4 = document.querySelector("#CH4");
   });
 
 
-
+  CH2.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = OvideoLinks2;
+    videoNames = OvideoNames2 ;
+   
+  
+  window.onload();
+  
+  });
  
   
 
