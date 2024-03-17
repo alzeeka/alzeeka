@@ -145,10 +145,11 @@ var OvideoNames1 = [ "CH1 part 1 java language" ,  "CH 1 part 2 java program and
                    "CH 1 part 11 Escape Sequences and comment and Exercises"];
 
 
-var OvideoLinks2 = ["https://www.youtube.com/embed/xv0IvN-ucj0?si=brpkv8lXCSM0IyWv"];
+var OvideoLinks2 = ["https://www.youtube.com/embed/xv0IvN-ucj0?si=brpkv8lXCSM0IyWv","https://www.youtube.com/embed/QXwhZUoGN0I?si=MRU8rtm5KPfsZ52t",
+                   "https://www.youtube.com/embed/dQszhBS_rqM?si=EhB2ReXpp0SaAtxu"];
 
 
-var OvideoNames2 = [ "CH 2 part 1 consol output print println printf"];
+var OvideoNames2 = [ "CH 2 part 1 consol output print println printf","CH 2 part 2 تمرين عملي printf    الكود بالوصف","CH 2 part 3 class Scanner"];
 
 
 
