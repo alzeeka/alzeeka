@@ -42,10 +42,12 @@ $(document).ready(function() {
   var videoNames2 = ["L2.1 java program sturactuer" , "L2.2 Declaretion", "L2.3 Assignment and default value","L2.4 type casting & Arithmetic operators"];
 
 
-  var videoLinks3 = ["https://www.youtube.com/embed/h7uwtyU4OK0?si=IItFoPIQbc90NvRp","https://www.youtube.com/embed/lW_Ip6l_tr0?si=XBHqk3X5tGnxEhBW","https://www.youtube.com/embed/p4CQZ5uM5N8?si=I7PfGvQmWOO5TufY"];
+  var videoLinks3 = ["https://www.youtube.com/embed/h7uwtyU4OK0?si=IItFoPIQbc90NvRp","https://www.youtube.com/embed/lW_Ip6l_tr0?si=XBHqk3X5tGnxEhBW",
+                     "https://www.youtube.com/embed/LUj9MXITRTE?si=SFwFxb7GuQ9mZ5f1","https://www.youtube.com/embed/tIdKboxUlNM?si=57Y3uIFWGkd5Kcwt",
+                    "https://www.youtube.com/embed/y07PBNMvNxE?si=qaAiP0sZwzOLkKtX"];
 
 
-  var videoNames3 = ["L3.1 declaration and assignment cont...","L3.2 class String","L3.3 class String Examples"];
+  var videoNames3 = ["L3.1 declaration and assignment cont...","L3.2 class String","L3.3 class String Examples","L3.4 Escape Sequences and comment and Exercises","L3.5 character sets"];
 
     var videoLinks4 = ["https://www.youtube.com/embed/wGTVKb3eG5Q?si=C0yQL4V9tqg_Fya1","https://www.youtube.com/embed/5EXe021kBgY?si=dhm1c7pUKzZ_8Pi4","https://www.youtube.com/embed/IK71utrybeU?si=qQ5DoRQoAz55aFFf"];
 
