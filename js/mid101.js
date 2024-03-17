@@ -99,10 +99,10 @@ var HvideoNames = [""];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX"];
+ var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX","https://www.youtube.com/embed/pM0L8ceyAmY?si=fj-xA_jhAXYBgDg9"];
 
 
-var RelzNames = [ "تجميعات | part 1"];
+var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2"];
 
 
 
