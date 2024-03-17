@@ -4,19 +4,19 @@
 
 
 $(document).ready(function() {
-   var videoLinks = ["https://www.youtube.com/embed/G52Z3i206Ro?si=aVppF2gJo7DOe8JH","https://www.youtube.com/embed/9eVZB0MSObE?si=kW8qDX2RnuXdlYyw",
-                      "https://www.youtube.com/embed/VEyIhXs-1aw?si=HkMcK1Cfzeyjskij","https://www.youtube.com/embed/uX-lEmw_6o4?si=Mp1MdJR0skBigzNf",
-                      "https://www.youtube.com/embed/5nEITATrnZE?si=hwR6tK6RLdzTr2xE"];
+   var videoLinks = ["https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
+                    "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
+                    ];
 
 
-  var videoNames = [ "L1 oop Quiz ","L2 inhertince Quiz" ,"L3 polymorphism Quiz" ,"L4 Abstraction Quiz","L5 Encapsulastion Quiz"];
+  var videoNames = [ "Output Quiz ","L1 Quiz" , "if Statement Quiz"];
 
-  var videoLinks1 = ["https://www.youtube.com/embed/G52Z3i206Ro?si=aVppF2gJo7DOe8JH","https://www.youtube.com/embed/9eVZB0MSObE?si=kW8qDX2RnuXdlYyw",
-  "https://www.youtube.com/embed/VEyIhXs-1aw?si=HkMcK1Cfzeyjskij","https://www.youtube.com/embed/uX-lEmw_6o4?si=Mp1MdJR0skBigzNf",
-  "https://www.youtube.com/embed/5nEITATrnZE?si=hwR6tK6RLdzTr2xE"];
+  var videoLinks1 = ["https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
+                    "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
+                    ];
 
 
-  var videoNames1 = [ "L1 oop Quiz ","L2 inhertince Quiz" ,"L3 polymorphism Quiz" ,"L4 Abstraction Quiz","L5 Encapsulastion Quiz"];
+  var videoNames1 = [ "Output Quiz ","L1 Quiz" , "if Statement Quiz"];
 
 
 
@@ -36,7 +36,7 @@ $(document).ready(function() {
 //###########################################################################################################
 //###########################################################################################################
 
- var AvideoLinks = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi", "https://www.youtube.com/embed/8WS2_6wtaK0?si=lHe936SEJa-WGxQa"
+ var AvideoLinks = ["https://www.youtube.com/embed/z3bf6wsKTxw?si=pSSUlM_rPQSe6--e", "https://www.youtube.com/embed/Xqdu_RiiC2c?si=WdtjNH-5l8CeyCJD"
 ];
 
 
@@ -44,7 +44,7 @@ var AvideoNames = [
   "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم"
 ];
 
- var AvideoLinks1 = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi", "https://www.youtube.com/embed/8WS2_6wtaK0?si=lHe936SEJa-WGxQa"
+ var AvideoLinks1 = ["https://www.youtube.com/embed/z3bf6wsKTxw?si=pSSUlM_rPQSe6--e", "https://www.youtube.com/embed/Xqdu_RiiC2c?si=WdtjNH-5l8CeyCJD"
 ];
 
 
@@ -78,10 +78,10 @@ var AvideoNames1 = [
 //###########################################################################################################
 //###########################################################################################################
 
- var HvideoLinks = [];
+ var HvideoLinks = [""];
 
 
-var HvideoNames = [];
+var HvideoNames = [""];
 
 
 
@@ -99,10 +99,10 @@ var HvideoNames = [];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/rqeGNWDCbKo?si=jKF0cJfbPCeKrJEz"];
+ var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX"];
 
 
-var RelzNames = [ "مراجعة Lectuer 1"];
+var RelzNames = [ "تجميعات | part 1"];
 
 
 
@@ -112,10 +112,10 @@ var RelzNames = [ "مراجعة Lectuer 1"];
 
 
   
- var BankLinks = ["https://www.youtube.com/embed/BZRP8qxEeRk?si=8FCi5CtAB22tPLWr"];
+ var BankLinks = [""];
 
 
-var BankNames = [ "شرح نموذج سابق 1"];
+var BankNames = [ ""];
 
 
 
@@ -154,7 +154,7 @@ var BankNames = [ "شرح نموذج سابق 1"];
 //###########################################################################################################
 //###########################################################################################################
 
- var FileLinks = ["https://drive.google.com/drive/folders/1-v-GcgGeD-8iXHBVpzAwZuh-A1OxL7C1?usp=sharing"];
+ var FileLinks = ["https://drive.google.com/drive/folders/17dlYRYobJz_-IA9lFRK0jaRR6hhCNsPk?usp=sharing"];
 
 
 var FileNames = [ " جميع الملفات "];
@@ -233,7 +233,7 @@ var FileNames = [ " جميع الملفات "];
       `;
   
       Files.appendChild(div);
-      file_download.style.display="block";
+     
       Quiz.style.display="block";
       
     }
@@ -324,7 +324,7 @@ Files = document.getElementById("Files");
 window.onload = function() {
   
   Quiz.style.display="none";
-  file_download.style.display="none";
+ 
   var videoRow = document.getElementById("videoRow");
   
   
