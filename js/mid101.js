@@ -4,12 +4,12 @@
 
 
 $(document).ready(function() {
-   var videoLinks = ["https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
+   var videoLinks = ["https://www.youtube.com/embed/zzRxBEmetIw?si=3rrPxqNT_DTu-3Es","https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
                     "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
                     ];
 
 
-  var videoNames = [ "Output Quiz ","L1 Quiz" , "if Statement Quiz"];
+  var videoNames = [ "CH 1.1 Quiz ","Output Quiz ","L1 Quiz" , "if Statement Quiz"];
 
   var videoLinks1 = ["https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
                     "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
