@@ -99,10 +99,10 @@ var HvideoNames = [];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/rqeGNWDCbKo?si=jKF0cJfbPCeKrJEz"];
+ var RelzLinks = ["https://www.youtube.com/embed/rqeGNWDCbKo?si=jKF0cJfbPCeKrJEz","https://www.youtube.com/embed/8qnBlnsWpVg?si=DL13mndVe87CGozu"];
 
 
-var RelzNames = [ "مراجعة Lectuer 1"];
+var RelzNames = [ "مراجعة Lectuer 1","مراجعة Lectuer 2"];
 
 
 
@@ -154,7 +154,7 @@ var BankNames = [ "شرح نموذج سابق 1"];
 //###########################################################################################################
 //###########################################################################################################
 
- var FileLinks = ["https://drive.google.com/drive/folders/1-v-GcgGeD-8iXHBVpzAwZuh-A1OxL7C1?usp=sharing"];
+ var FileLinks = ["https://drive.google.com/drive/folders/1-v-GcgGeD-8iXHBVpzAwZuh-A1OxL7C1?usp=drive_link"];
 
 
 var FileNames = [ " جميع الملفات "];
