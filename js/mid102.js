@@ -44,12 +44,13 @@ var AvideoNames = [
   "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم"
 ];
 
- var AvideoLinks1 = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi", "https://www.youtube.com/embed/8WS2_6wtaK0?si=lHe936SEJa-WGxQa"
+ var AvideoLinks1 = ["https://www.youtube.com/embed/KPEmZbow98E?si=ulyLPoLCMN_ACSBi", "https://www.youtube.com/embed/8WS2_6wtaK0?si=lHe936SEJa-WGxQa",
+                     "https://www.youtube.com/embed/dKd_6oAJe8A?si=O3GFOd7dY1nw4-Ry"
 ];
 
 
 var AvideoNames1 = [ 
-  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم"
+  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم" ,  "Quiz 3 | كويزات الترم"
 ];
 
 
