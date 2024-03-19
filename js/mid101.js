@@ -45,12 +45,13 @@ var AvideoNames = [
   "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم",  "Quiz 3 | كويزات الترم"
 ];
 
- var AvideoLinks1 = ["https://www.youtube.com/embed/z3bf6wsKTxw?si=pSSUlM_rPQSe6--e", "https://www.youtube.com/embed/Xqdu_RiiC2c?si=WdtjNH-5l8CeyCJD"
+ var AvideoLinks = ["https://www.youtube.com/embed/z3bf6wsKTxw?si=pSSUlM_rPQSe6--e", "https://www.youtube.com/embed/Xqdu_RiiC2c?si=WdtjNH-5l8CeyCJD",
+                    "https://www.youtube.com/embed/mIqy_vRA1G0?si=q4aYUf1I4HWqaAX7"
 ];
 
 
-var AvideoNames1 = [ 
-  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم"
+var AvideoNames = [ 
+  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم",  "Quiz 3 | كويزات الترم"
 ];
 
 
@@ -101,7 +102,7 @@ var HvideoNames = [""];
 
 
  var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX","https://www.youtube.com/embed/pM0L8ceyAmY?si=fj-xA_jhAXYBgDg9",
-                 "https://www.youtube.com/embed/yiCEbw4iB5s?si=YnMS44cyp2b_eQIb","https://www.youtube.com/embed/cin2ppu0-UE?si=au782EvRI2nd67qv"];
+                 "https://www.youtube.com/embed/cin2ppu0-UE?si=au782EvRI2nd67qv","https://www.youtube.com/embed/yiCEbw4iB5s?si=YnMS44cyp2b_eQIb"];
 
 
 var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2",  "تجميعات خاص بالعيال | part 3" ,  "مراجعة الدكتور | Reviw"];
