@@ -107,7 +107,12 @@ var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2" ,  "م�
 
 
 
+ var AssLinks = ["https://www.youtube.com/embed/Vl51ryeWZy4?si=8SWp2P0PxNgmq4b7","https://www.youtube.com/embed/5yCpe074Yz4?si=lr13zqxPPOUAsNXw",
+                "https://www.youtube.com/embed/dh-nblXPO7A?si=AFXgghuvHiV6Z9P-","https://www.youtube.com/embed/Xls_tSzjVUk?si=L-3Gge5Xo1jbnJFv",
+                "https://www.youtube.com/embed/YRaCoBjS2z4?si=AdVzhxpO6VxucPc9"];
 
+
+var AssNames = [ "Lab 1" ,  "Assignment Lab 2" ,"Assignment Lab 3" , "Exercise Lab 4","Assignment Lab 4"];
 
 
 
@@ -468,7 +473,19 @@ const Ali1 = document.querySelector("#AL1");
   });
 
 
+  const Ass = document.querySelector("#Ass");
 
+  Ass.addEventListener("click", function() {
+    
+  videoRow.innerHTML = "";
+  Files.innerHTML="";
+  videoLinks = AssLinks;
+  videoNames = AssNames ;
+ 
+
+window.onload();
+
+});
 
  const bank = document.querySelector("#bank");
     bank.addEventListener("click", function() {
