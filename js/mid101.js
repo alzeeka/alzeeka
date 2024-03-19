@@ -99,10 +99,11 @@ var HvideoNames = [""];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX","https://www.youtube.com/embed/pM0L8ceyAmY?si=fj-xA_jhAXYBgDg9"];
+ var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX","https://www.youtube.com/embed/pM0L8ceyAmY?si=fj-xA_jhAXYBgDg9",
+                 "https://www.youtube.com/embed/yiCEbw4iB5s?si=YnMS44cyp2b_eQIb"];
 
 
-var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2"];
+var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2" ,  "مراجعة الدكتور | Reviw"];
 
 
 
