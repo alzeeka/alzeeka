@@ -146,10 +146,11 @@ var OvideoNames1 = [ "CH1 part 1 java language" ,  "CH 1 part 2 java program and
 
 
 var OvideoLinks2 = ["https://www.youtube.com/embed/xv0IvN-ucj0?si=brpkv8lXCSM0IyWv","https://www.youtube.com/embed/QXwhZUoGN0I?si=MRU8rtm5KPfsZ52t",
-                   "https://www.youtube.com/embed/dQszhBS_rqM?si=EhB2ReXpp0SaAtxu"];
+                   "https://www.youtube.com/embed/dQszhBS_rqM?si=EhB2ReXpp0SaAtxu","https://www.youtube.com/embed/4xI4fRjvMUs?si=C9fdd5d69B3Kxm-4];
 
 
-var OvideoNames2 = [ "CH 2 part 1 consol output print println printf","CH 2 part 2 تمرين عملي printf    الكود بالوصف","CH 2 part 3 class Scanner"];
+var OvideoNames2 = [ "CH 2 part 1 consol output print println printf","CH 2 part 2 تمرين عملي printf    الكود بالوصف","CH 2 part 3 class Scanner",
+                   "CH 2 part 4 Scanner methods"];
 
 
 
