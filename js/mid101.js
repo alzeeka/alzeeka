@@ -101,10 +101,10 @@ var HvideoNames = [""];
 
 
  var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX","https://www.youtube.com/embed/pM0L8ceyAmY?si=fj-xA_jhAXYBgDg9",
-                 "https://www.youtube.com/embed/yiCEbw4iB5s?si=YnMS44cyp2b_eQIb"];
+                 "https://www.youtube.com/embed/yiCEbw4iB5s?si=YnMS44cyp2b_eQIb","https://www.youtube.com/embed/cin2ppu0-UE?si=au782EvRI2nd67qv"];
 
 
-var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2" ,  "مراجعة الدكتور | Reviw"];
+var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2",  "تجميعات خاص بالعيال | part 3" ,  "مراجعة الدكتور | Reviw"];
 
 
 
