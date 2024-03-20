@@ -111,10 +111,11 @@ var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2",  "تج
 
  var AssLinks = ["https://www.youtube.com/embed/Vl51ryeWZy4?si=8SWp2P0PxNgmq4b7","https://www.youtube.com/embed/5yCpe074Yz4?si=lr13zqxPPOUAsNXw",
                 "https://www.youtube.com/embed/dh-nblXPO7A?si=AFXgghuvHiV6Z9P-","https://www.youtube.com/embed/Xls_tSzjVUk?si=L-3Gge5Xo1jbnJFv",
-                "https://www.youtube.com/embed/YRaCoBjS2z4?si=AdVzhxpO6VxucPc9"];
+                "https://www.youtube.com/embed/YRaCoBjS2z4?si=AdVzhxpO6VxucPc9","https://www.youtube.com/embed/N1NUSU0j2Vc?si=6Qs2PJAY2VBrIV1r",
+                "https://www.youtube.com/embed/_o-gR-uniX4?si=QyPj_uIKyrIhHXSj","https://www.youtube.com/embed/FmvWG88j-B4?si=UIq-iMgHEXeM9rZu"];
 
 
-var AssNames = [ "Lab 1" ,  "Assignment Lab 2" ,"Assignment Lab 3" , "Exercise Lab 4","Assignment Lab 4"];
+var AssNames = [ "Lab 1" ,  "Assignment Lab 2" ,"Assignment Lab 3" , "Exercise Lab 4","Assignment Lab 4","big Assignment Q1 الاكواد بالوصف","big Assignment Q2,Q3  الاكواد بالوصف","big Assignment Q4,Q5 الاكواد بالوصف"];
 
 
 
