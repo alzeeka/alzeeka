@@ -121,10 +121,10 @@ var AssNames = [ "Lab 1" ,  "Assignment Lab 2" ,"Assignment Lab 3" , "Exercise L
 
 
   
- var BankLinks = [""];
+ var BankLinks = ["https://www.youtube.com/embed/I_ifX5qtWks?si=Y29AzN7j_ajwmrCj","https://www.youtube.com/embed/O-L24rdgeIw?si=KTrelYCAjyZZDAWZ","https://www.youtube.com/embed/Kaf2yjXiQZk?si=pqQhDtHrAnNufZEm"];
 
 
-var BankNames = [ ""];
+var BankNames = ["mid 1 | ميد سابق", "ALZEEKA mid part 1","ALZEEKA mid part 2"];
 
 
 
