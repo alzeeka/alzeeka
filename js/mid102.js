@@ -100,10 +100,11 @@ var HvideoNames = [];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/rqeGNWDCbKo?si=jKF0cJfbPCeKrJEz","https://www.youtube.com/embed/8qnBlnsWpVg?si=DL13mndVe87CGozu"];
+ var RelzLinks = ["https://www.youtube.com/embed/rqeGNWDCbKo?si=jKF0cJfbPCeKrJEz","https://www.youtube.com/embed/8qnBlnsWpVg?si=DL13mndVe87CGozu",
+                 "https://www.youtube.com/embed/PzQmaWo1hzU?si=_2POxVKlJDp76juh"];
 
 
-var RelzNames = [ "مراجعة Lectuer 1","مراجعة Lectuer 2"];
+var RelzNames = [ "مراجعة Lectuer 1","مراجعة Lectuer 2","مراجعة Lectuer 3"];
 
 
 
