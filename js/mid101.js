@@ -5,11 +5,11 @@
 
 $(document).ready(function() {
    var videoLinks = ["https://www.youtube.com/embed/zzRxBEmetIw?si=3rrPxqNT_DTu-3Es","https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
-                    "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
+                    "https://www.youtube.com/embed/mGW93sI_1GI?si=NqiVp4nOrjlrrV7l","https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
                     ];
 
 
-  var videoNames = [ "CH 1.1 Quiz ","Output Quiz ","L1 Quiz" , "if Statement Quiz"];
+  var videoNames = [ "CH 1.1 Quiz ","Output Quiz ","L1 Quiz" ,"class String" ,"if Statement Quiz"];
 
    var videoLinks1 = ["https://www.youtube.com/embed/zzRxBEmetIw?si=3rrPxqNT_DTu-3Es","https://www.youtube.com/embed/rZe62YFTzMY?si=yVl5mLuKNOB5Tw7q","https://www.youtube.com/embed/aKJmwAsrIGA?si=0DFgZzQcfkJWA8xQ",
                     "https://www.youtube.com/embed/Y-5a_o0o6MI?si=lgWFpxVJtITydEMg"
@@ -102,10 +102,11 @@ var HvideoNames = [""];
 
 
  var RelzLinks = ["https://www.youtube.com/embed/C35aCG3_n9k?si=kIrxAIb9-bNiY8AX","https://www.youtube.com/embed/pM0L8ceyAmY?si=fj-xA_jhAXYBgDg9",
-                 "https://www.youtube.com/embed/cin2ppu0-UE?si=au782EvRI2nd67qv","https://www.youtube.com/embed/yiCEbw4iB5s?si=YnMS44cyp2b_eQIb"];
+                 "https://www.youtube.com/embed/cin2ppu0-UE?si=au782EvRI2nd67qv","https://www.youtube.com/embed/NrUYqGGUAv4?si=hSVNKHukgg6JI5i5",
+                  "https://www.youtube.com/embed/yiCEbw4iB5s?si=YnMS44cyp2b_eQIb"];
 
 
-var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2",  "تجميعات خاص بالعيال | part 3" ,  "مراجعة الدكتور | Reviw"];
+var RelzNames = [ "تجميعات | part 1" ,  "تجميعات | part 2",  "تجميعات خاص بالعيال | part 3" ,  "تجميعات | part 4",  "مراجعة الدكتور | Reviw"];
 
 
 
