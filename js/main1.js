@@ -62,10 +62,10 @@ $(document).ready(function() {
   var videoNames5 = ["L5.1 Flow of Control 1","L5.2 if - if-else - nested if","L5.3 Switch Statement","L5.4 boolean Excepertion"];
 
 
- var videoLinks6 = [];
+ var videoLinks6 = ["https://www.youtube.com/embed/rUC2GksaRyQ?si=HdoDSC7tLh1CR1_L","https://www.youtube.com/embed/l1lpooOb4P8?si=F3qX_qosTNxoNMf9"];
 
 
-  var videoNames6 = [];
+  var videoNames6 = ["Lab 6.1 Looping and while loop","L6.2 do-while loop"];
 
 
 
@@ -120,10 +120,7 @@ var AvideoLinks5 = ["https://www.youtube.com/embed/1oG2bQeBNxY?si=TT6qY0pr2zYY7y
 var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else","Lab 5.2 Exerxises","Lab 5.3 Assignment blood"];
 
 
-var AvideoLinks6 = ["https://www.youtube.com/embed/rUC2GksaRyQ?si=HdoDSC7tLh1CR1_L"];
 
-
-var AvideoNames6 = ["Lab 6.1 Looping and while loop"];
 
 
 
