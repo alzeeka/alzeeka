@@ -37,21 +37,21 @@ $(document).ready(function() {
 //###########################################################################################################
 
  var AvideoLinks = ["https://www.youtube.com/embed/z3bf6wsKTxw?si=pSSUlM_rPQSe6--e", "https://www.youtube.com/embed/Xqdu_RiiC2c?si=WdtjNH-5l8CeyCJD",
-                    "https://www.youtube.com/embed/mIqy_vRA1G0?si=q4aYUf1I4HWqaAX7"
+                    "https://www.youtube.com/embed/mIqy_vRA1G0?si=q4aYUf1I4HWqaAX7","https://www.youtube.com/embed/_f-zSRomgUE?si=rRSUtV8Au7ofLzKN"
 ];
 
 
 var AvideoNames = [ 
-  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم",  "Quiz 3 | كويزات الترم"
+  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم",  "Quiz 3 | كويزات الترم",  "Quiz 4 CH 3 | كويزات الترم"
 ];
 
  var AvideoLinks = ["https://www.youtube.com/embed/z3bf6wsKTxw?si=pSSUlM_rPQSe6--e", "https://www.youtube.com/embed/Xqdu_RiiC2c?si=WdtjNH-5l8CeyCJD",
-                    "https://www.youtube.com/embed/mIqy_vRA1G0?si=q4aYUf1I4HWqaAX7"
+                    "https://www.youtube.com/embed/mIqy_vRA1G0?si=q4aYUf1I4HWqaAX7","https://www.youtube.com/embed/_f-zSRomgUE?si=rRSUtV8Au7ofLzKN"
 ];
 
 
 var AvideoNames = [ 
-  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم",  "Quiz 3 | كويزات الترم"
+  "Quiz 1 | كويزات الترم" ,  "Quiz 2 | كويزات الترم",  "Quiz 3 | كويزات الترم",  "Quiz 4 CH 3 | كويزات الترم"
 ];
 
 
