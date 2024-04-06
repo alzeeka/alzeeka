@@ -49,7 +49,18 @@ $(document).ready(function() {
   var videoNames5 = ["L5.1 | Encapsulation" ,"L5.2 | lombok","L5.3 | inner class" ];
 
 
+  var videoLinks6 = ["https://www.youtube.com/embed/xE0hy_SZmmY?si=tq0nXv8jU8hUwIrY","https://www.youtube.com/embed/rlsBZCCl5pA?si=vNhRiHexw2wDdKDz",
+                    "https://www.youtube.com/embed/ZxosJDuFGJc?si=S6ObET1cuoRpnUSN" , "https://www.youtube.com/embed/FAqyDqwI5Eo?si=v_CctP3Hag2CV3EE" ];
 
+  var videoNames6 = ["L6.1 | UML" ,"L6.2 | UML Class Diagram relationships","L6.3 | Enum"  , "L6.4 | Enum Methods" ];
+
+
+
+  var videoLinks8 = ["https://www.youtube.com/embed/OfRDELtZ9_A?si=CiChsLpKNt8jkRg2","https://www.youtube.com/embed/JA0WYGO7414?si=RPlGfX8igruarzSG",
+                    "https://www.youtube.com/embed/MC95tS-BW4c?si=ofllQALKiXCpWHwr"];
+
+
+  var videoNames8 = ["L8.1 | Exception type" ,"L8.2 | try and catch","L8.3 | throw and throws" ];
 
 
 
