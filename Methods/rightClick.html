@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Testing rightClick function</title>
+    <script>
+        function rightClick(event) {
+            event.preventDefault();
+            return 1;
+        }
+    </script>
+</head>
+<body oncontextmenu="return rightClick(event);">
+    <h1>Right-click is disabled on this page</h1>
+</body>
+</html>
