@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phishing Detection Test</title>
+  <script>
+    function detectPhishing() {
+      var url = document.getElementById("url").value;
+      var resultDiv = document.getElementById("result");
+      
+      // إرسال طلب POST إلى الخادم لفحص العنوان المراد
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", "/detect_phishing", true);
+      xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          var result = JSON.parse(xhr.responseText);
+          if (result === -1) {
+            resultDiv.textContent = "تم اكتشاف هجمة الـ phishing.";
+          } else {
+            resultDiv.textContent = "لم يتم اكتشاف هجمة الـ phishing.";
+          }
+        }
+      };
+      xhr.send(JSON.stringify({ url: url }));
+    }
+  </script>
+</head>
+<body>
+  <h1>اختبار اكتشاف الـ Phishing</h1>
+  <label for="url">أدخل عنوان URL:</label>
+  <input type="text" id="url" name="url">
+  <button onclick="detectPhishing()">تشغيل الاختبار</button>
+  <div id="result"></div>
+</body>
+</html>
