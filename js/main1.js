@@ -62,10 +62,11 @@ $(document).ready(function() {
   var videoNames5 = ["L5.1 Flow of Control 1","L5.2 if - if-else - nested if","L5.3 Switch Statement","L5.4 boolean Excepertion"];
 
 
- var videoLinks6 = ["https://www.youtube.com/embed/rUC2GksaRyQ?si=HdoDSC7tLh1CR1_L","https://www.youtube.com/embed/l1lpooOb4P8?si=F3qX_qosTNxoNMf9"];
+ var videoLinks6 = ["https://www.youtube.com/embed/rUC2GksaRyQ?si=HdoDSC7tLh1CR1_L","https://www.youtube.com/embed/l1lpooOb4P8?si=F3qX_qosTNxoNMf9",
+                   "https://www.youtube.com/embed/JgL97sjWfHo?si=h6FT1DErSIuXAtLq","https://www.youtube.com/embed/2LzQInPliE0?si=1-1aJjUtDMEO_wtw"];
 
 
-  var videoNames6 = ["Lab 6.1 Looping and while loop","L6.2 do-while loop"];
+  var videoNames6 = ["Lab 6.1 Looping and while loop","L6.2 do-while loop","L6.3 Exercises","L6.4 for Statement"];
 
 
 
@@ -151,6 +152,12 @@ var OvideoLinks2 = ["https://www.youtube.com/embed/xv0IvN-ucj0?si=brpkv8lXCSM0Iy
 
 var OvideoNames2 = [ "CH 2 part 1 consol output print println printf","CH 2 part 2 تمرين عملي printf    الكود بالوصف","CH 2 part 3 class Scanner",
                    "CH 2 part 4 Scanner methods"];
+
+
+  var OvideoLinks3 = ["https://www.youtube.com/embed/tQtYUvQONlI?si=Ou6AnmIBdIx9hhLF","https://www.youtube.com/embed/8peBvZNHhys?si=zxyR7mUJUpmjjycL"];
+
+
+var OvideoNames3 = [ "CH 3 part 1 flow of control and if else","CH 3 part 2 Nested if and multiway statment"];
 
 
 
@@ -862,7 +869,17 @@ const CH4 = document.querySelector("#CH4");
   
   });
  
+    CH3.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = OvideoLinks3;
+    videoNames = OvideoNames3 ;
+   
   
+  window.onload();
+  
+  });
 
  
 
