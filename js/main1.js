@@ -154,10 +154,14 @@ var OvideoNames2 = [ "CH 2 part 1 consol output print println printf","CH 2 part
                    "CH 2 part 4 Scanner methods"];
 
 
-  var OvideoLinks3 = ["https://www.youtube.com/embed/tQtYUvQONlI?si=Ou6AnmIBdIx9hhLF","https://www.youtube.com/embed/8peBvZNHhys?si=zxyR7mUJUpmjjycL"];
+  var OvideoLinks3 = ["https://www.youtube.com/embed/tQtYUvQONlI?si=Ou6AnmIBdIx9hhLF","https://www.youtube.com/embed/8peBvZNHhys?si=zxyR7mUJUpmjjycL",
+                     "https://www.youtube.com/embed/P33TET0hnlI?si=kHmbCzkIVf1XL8Ep","https://www.youtube.com/embed/0C5Vxdk3u9o?si=aplXKSZn0BAendB6",
+                     "https://www.youtube.com/embed/24Iw0YMcP54?si=g6aFHLPgROh5c_Tz"];
 
 
-var OvideoNames3 = [ "CH 3 part 1 flow of control and if else","CH 3 part 2 Nested if and multiway statment"];
+var OvideoNames3 = [ "CH 3 part 1 flow of control and if else","CH 3 part 2 Nested if and multiway statment",
+                    "CH 3 part 3 Switch statment","CH 3 part 4 Condatinal oprator ands Precedence and Associativity Rules",
+                    "CH 3 part 5 while and do-while"];
 
 
 
