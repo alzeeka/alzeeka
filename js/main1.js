@@ -122,6 +122,12 @@ var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else","Lab 5.2 Exerxises","
 
 
 
+  var AvideoLinks6 = ["https://www.youtube.com/embed/KM0MA_JZOAU?si=HsSWR2SC3QMbQHT6","https://www.youtube.com/embed/CbFroM8w22g?si=GQXPZXz3rTzracDc",
+                     "https://www.youtube.com/embed/YGbHjFrFoI0?si=4FDzCvpPsg049Y3x"];
+
+
+var AvideoNames6 = ["Lab 6.1 Switch الأكواد موجودة بوصف الفيديو","Lab 6.2 Exerxises الأكواد موجودة بوصف الفيديو","Lab 6.3 Assignment الأكواد موجودة بوصف الفيديو"];
+
 
 
 
