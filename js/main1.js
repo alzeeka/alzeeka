@@ -63,10 +63,11 @@ $(document).ready(function() {
 
 
  var videoLinks6 = ["https://www.youtube.com/embed/rUC2GksaRyQ?si=HdoDSC7tLh1CR1_L","https://www.youtube.com/embed/l1lpooOb4P8?si=F3qX_qosTNxoNMf9",
-                   "https://www.youtube.com/embed/JgL97sjWfHo?si=h6FT1DErSIuXAtLq","https://www.youtube.com/embed/2LzQInPliE0?si=1-1aJjUtDMEO_wtw"];
+                   "https://www.youtube.com/embed/JgL97sjWfHo?si=h6FT1DErSIuXAtLq","https://www.youtube.com/embed/2LzQInPliE0?si=1-1aJjUtDMEO_wtw",
+                   "https://www.youtube.com/embed/mREn6pO6e7E?si=Ogqf3i1FLk3UE7NN"];
 
 
-  var videoNames6 = ["Lab 6.1 Looping and while loop","L6.2 do-while loop","L6.3 Exercises","L6.4 for Statement"];
+  var videoNames6 = ["Lab 6.1 Looping and while loop","L6.2 do-while loop","L6.3 Exercises","L6.4 for Statement","L6.5 Nested loop"];
 
 
 
