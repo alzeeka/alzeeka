@@ -64,7 +64,11 @@ $(document).ready(function() {
 
 
 
+var videoLinks10 = ["https://www.youtube.com/embed/sVeeMrNHmiQ?si=zsAfJXpJHSw_1zjK","https://www.youtube.com/embed/6CW6qmU3FaI?si=QVQBuOZHoBWwsUfl","https://www.youtube.com/embed/Ic1whAY0t80?si=HuTm4dN89L23rYL4",
+                    "https://www.youtube.com/embed/TEnx4J9nTZ0?si=wkMPAm5TLAnPGtsQ"];
 
+
+  var videoNames10 = ["L10.1 | Wrapper class" ,"L10.2 | Array List","L10.3 | Generic Class","L10.4 | Generic method" ];
 
 
 
