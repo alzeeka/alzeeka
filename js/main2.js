@@ -63,6 +63,12 @@ $(document).ready(function() {
   var videoNames8 = ["L8.1 | Exception type" ,"L8.2 | try and catch","L8.3 | throw and throws" ];
 
 
+  var videoLinks9 = ["https://www.youtube.com/embed/SgHVF0m_UiM?si=-vMsJn_VrJ5Hhdk_","https://www.youtube.com/embed/PnVfZJHjTyM?si=IXI0_4zWCWAxx2Bt"];
+
+
+  var videoNames9 = ["L9.1 |  create and write and read of file" ,"L9.2 | Copy - Rename - List - Information File" ];
+
+  
 
 var videoLinks10 = ["https://www.youtube.com/embed/sVeeMrNHmiQ?si=zsAfJXpJHSw_1zjK","https://www.youtube.com/embed/6CW6qmU3FaI?si=QVQBuOZHoBWwsUfl","https://www.youtube.com/embed/Ic1whAY0t80?si=HuTm4dN89L23rYL4",
                     "https://www.youtube.com/embed/TEnx4J9nTZ0?si=wkMPAm5TLAnPGtsQ"];
