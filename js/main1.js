@@ -129,8 +129,24 @@ var AvideoNames5 = ["Lab 5.1 Simple if & multiway if-else","Lab 5.2 Exerxises","
 
 var AvideoNames6 = ["Lab 6.1 Switch الأكواد موجودة بوصف الفيديو","Lab 6.2 Exerxises الأكواد موجودة بوصف الفيديو","Lab 6.3 Assignment الأكواد موجودة بوصف الفيديو"];
 
+ var AvideoLinks7 = ["https://www.youtube.com/embed/S_bZ4N01Y44?si=mIlidx7ShKF5__et","https://www.youtube.com/embed/dDLjoSwwB4Y?si=yw4zhOe3eXzJIauq",
+                     "https://www.youtube.com/embed/agsMcJQAi7A?si=lKPlCsSlfqJ3p95Q"];
 
 
+var AvideoNames7 = ["Lab 7.1 for loop ","Lab 7.2 Exerxises الأكواد موجودة بوصف الفيديو","Lab 7.3 Assignment الأكواد موجودة بوصف الفيديو"];
+
+
+var AvideoLinks8 = ["https://www.youtube.com/embed/d9sT2mnoVxk?si=ndMf8TIx4w9oRVFc","https://www.youtube.com/embed/8UIpd-5DNTo?si=QYfff3z3vPiNvD0o",
+                     "https://www.youtube.com/embed/q6wbBUvbByI?si=uJl8yKZGFH-ot-JH"];
+
+
+var AvideoNames8 = ["Lab 8.1 while loop ","Lab 8.2 Exerxises الأكواد موجودة بوصف الفيديو","Lab 8.3 Assignment الأكواد موجودة بوصف الفيديو"];
+
+
+var AvideoLinks9 = ["https://www.youtube.com/embed/hqskidXcHS8?si=FjIdIizRzfvGE3AI"];
+
+
+var AvideoNames9 = ["Lab 9 do while loop "];
 
 
 
@@ -723,6 +739,46 @@ const Ali11 = document.querySelector("#AL11");
   window.onload();
   
   });
+
+
+ Ali7.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    
+    videoLinks = AvideoLinks7;
+    videoNames = AvideoNames7 ;
+  
+  window.onload();
+  
+  });
+
+
+Ali8.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    
+    videoLinks = AvideoLinks8;
+    videoNames = AvideoNames8 ;
+  
+  window.onload();
+  
+  });
+
+
+Ali9.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    
+    videoLinks = AvideoLinks9;
+    videoNames = AvideoNames9 ;
+  
+  window.onload();
+  
+  });
+
+
+
+  
 
   li6.addEventListener("click", function() {
     HomeWork.style.display="none"; 
