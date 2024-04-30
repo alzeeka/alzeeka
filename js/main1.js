@@ -190,6 +190,12 @@ var OvideoNames3 = [ "CH 3 part 1 flow of control and if else","CH 3 part 2 Nest
 
 
 
+  var OvideoLinks4 = ["https://www.youtube.com/embed/aBPHSYvSl1o?si=11QwXWhOv9-gPpJY"];
+
+
+var OvideoNames4 = [ "CH 4 part 1 Class and object];
+
+
 
 
 
@@ -909,7 +915,7 @@ const CH1 = document.querySelector("#CH1");
 const CH2 = document.querySelector("#CH2");
 const CH3 = document.querySelector("#CH3");
 const CH4 = document.querySelector("#CH4");
-
+const CH6 = document.querySelector("#CH6");
 
 
   CH1.addEventListener("click", function() {
@@ -950,7 +956,17 @@ const CH4 = document.querySelector("#CH4");
   });
 
  
-
+    CH4.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = OvideoLinks4;
+    videoNames = OvideoNames4 ;
+   
+  
+  window.onload();
+  
+  });
 
   
 });
