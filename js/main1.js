@@ -148,6 +148,12 @@ var AvideoLinks9 = ["https://www.youtube.com/embed/hqskidXcHS8?si=FjIdIizRzfvGE3
 
 var AvideoNames9 = ["Lab 9 do while loop "];
 
+var AvideoLinks11 = ["https://www.youtube.com/embed/9bmvVTbPNSg?si=0JP2UVqYen4y3-XP","https://www.youtube.com/embed/f0W82pc3pbM?si=XYKVmOnUPf5b1IDK",
+                    "https://www.youtube.com/embed/nh4j_J_MeSo?si=aIAaTMrqd3Eg2myB","https://www.youtube.com/embed/1Xf9f16lQ4g?si=qrGdaBoSY0x4lwoD"];
+
+
+var AvideoNames11 = ["Lab 11.1 OOP concept ", "Lab 11.2 class student" , "Lab 11.3 Exercises 1 , 2" , "Lab 11.4 Assignement"];
+
 
 
 //###########################################################################################################
