@@ -155,7 +155,10 @@ var AvideoLinks11 = ["https://www.youtube.com/embed/9bmvVTbPNSg?si=0JP2UVqYen4y3
 var AvideoNames11 = ["Lab 11.1 OOP concept ", "Lab 11.2 class student" , "Lab 11.3 Exercises 1 , 2" , "Lab 11.4 Assignement"];
 
 
+var AvideoLinks12= [""];
 
+
+var AvideoNames12 = [""];
 //###########################################################################################################
 //###########################################################################################################
 
@@ -674,6 +677,7 @@ const Ali8 = document.querySelector("#AL8");
 const Ali9 = document.querySelector("#AL9");
 const Ali10 = document.querySelector("#AL10");
 const Ali11 = document.querySelector("#AL11");
+  const Ali12 = document.querySelector("#AL12");
 
 
 
@@ -789,7 +793,27 @@ Ali9.addEventListener("click", function() {
   });
 
 
+Ali11.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    
+    videoLinks = AvideoLinks11;
+    videoNames = AvideoNames11 ;
+  
+  window.onload();
+  
+  });
 
+  Ali12.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    
+    videoLinks = AvideoLinks12;
+    videoNames = AvideoNames12 ;
+  
+  window.onload();
+  
+  });
   
 
   li6.addEventListener("click", function() {
