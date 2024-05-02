@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اختبار دالة كشف التصيد الاحتيالي</title>
+</head>
+<body>
+  <h1>اختبار دالة `is_phishing_url(url)` مع كلمات محظورة</h1>
+
+  <p>أدخل عنوان URL للاختبار:</p>
+
+  <form action="" method="post">
+    <input type="text" name="url" id="url" size="50">
+    <button type="submit">تحقق</button>
+  </form>
+
+  <br>
+
+  <h2>نتائج الاختبار:</h2>
+
+  <div id="result"></div>
+
+  <script>
+    const form = document.querySelector('form');
+    const urlInput = document.getElementById('url');
+    const resultDiv = document.getElementById('result');
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const url = urlInput.value.trim();
+
+      if (!url) {
+        alert('من فضلك أدخل عنوان URL للاختبار.');
+        return;
+      }
+
+      const isPhishing = isPhishingURL(url);
+
+      if (isPhishing === 1) {
+        resultDiv.innerHTML = `<p style="color: red;">عنوان URL مشبوه بوجود هجوم تصيد احتيالي! قد يحتوي على كلمات محظورة.</p>`;
+      } else if (isPhishing === -1) {
+        resultDiv.innerHTML = `<p style="color: green;">عنوان URL غير مشبوه.</p>`;
+      } else {
+        resultDiv.innerHTML = `<p style="color: orange;">خطأ في اختبار عنوان URL.</p>`;
+      }
+    });
+
+    function isPhishingURL(url) {
+      // أدخل دالة `is_phishing_url(url)` هنا
+      // تأكد من استبدال "YOUR_CODE_HERE" بالدالة الفعلية
+
+      // مثال على عودة الدالة مع كلمات محظورة
+      const bannedKeywords = ['bank', 'login', 'account', 'password', 'secure', 'update'];
+
+      for (const keyword of bannedKeywords) {
+        if (url.toLowerCase().includes(keyword)) {
+          return 1; // عنوان مشبوه
+        }
+      }
+
+      // مثال على عودة الدالة عند عدم العثور على كلمات محظورة
+      return -1; // عنوان غير مشبوه
+    }
+  </script>
+
+</body>
+</html>
