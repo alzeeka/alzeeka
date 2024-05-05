@@ -159,10 +159,11 @@ var AvideoLinks11 = ["https://www.youtube.com/embed/9bmvVTbPNSg?si=0JP2UVqYen4y3
 var AvideoNames11 = ["Lab 11.1 OOP concept ", "Lab 11.2 class student" , "Lab 11.3 Exercises 1 , 2" , "Lab 11.4 Assignement"];
 
 
-var AvideoLinks12= [""];
+var AvideoLinks12= ["https://www.youtube.com/embed/yirBGR0d8-o?si=t6WCcooCSEbt27Hi","https://www.youtube.com/embed/oVbxlG68FoQ?si=BoZzn7oCbj_O8HDF",
+                   "https://www.youtube.com/embed/5Dnm5g-WHrs?si=JwmOOPaSDSnu_rmo"];
 
 
-var AvideoNames12 = [""];
+var AvideoNames12 = ["Lab 12.1  1D array","Lab 12.2  Exercises 1 , 2 ","Lab 12.3  Assignment"];
 //###########################################################################################################
 //###########################################################################################################
 
