@@ -70,6 +70,10 @@ $(document).ready(function() {
   var videoNames6 = ["Lab 6.1 Looping and while loop","L6.2 do-while loop","L6.3 Exercises","L6.4 for Statement","L6.5 Nested loop","L6.6 break and continue and exit"];
 
 
+var videoLinks7 = ["https://www.youtube.com/embed/B4QtSulWOQ8?si=fXzwqpgENv6Sq3sr"];
+
+
+  var videoNames7 = ["Lab 7.1 classes and object"];
 
 
 
