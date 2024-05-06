@@ -67,17 +67,43 @@ $(document).ready(function() {
                    "https://www.youtube.com/embed/mREn6pO6e7E?si=Ogqf3i1FLk3UE7NN","https://www.youtube.com/embed/Wt6RmdRBFHE?si=T-dzrWkKK1NCoUAW"];
 
 
-  var videoNames6 = ["Lab 6.1 Looping and while loop","L6.2 do-while loop","L6.3 Exercises","L6.4 for Statement","L6.5 Nested loop","L6.6 break and continue and exit"];
+  var videoNames6 = ["L 6.1 Looping and while loop","L6.2 do-while loop","L6.3 Exercises","L6.4 for Statement","L6.5 Nested loop","L6.6 break and continue and exit"];
 
 
-var videoLinks7 = ["https://www.youtube.com/embed/B4QtSulWOQ8?si=fXzwqpgENv6Sq3sr"];
+var videoLinks7 = ["https://www.youtube.com/embed/B4QtSulWOQ8?si=fXzwqpgENv6Sq3sr","https://www.youtube.com/embed/PaI5qxPoyS8?si=NU_uBkZSBZ2612b9",
+                  "https://www.youtube.com/embed/aYnMHanCNis?si=iL8Z8EezdeTCsPD7"];
 
 
-  var videoNames7 = ["Lab 7.1 classes and object"];
+  var videoNames7 = ["L 7.1 classes and object","L 7.2 constructor","L 7.3 Methods and this"];
 
 
 
+var videoLinks8 = ["https://www.youtube.com/embed/AHkJqqzpWrU?si=bTnWS1avO-s_fYJ2","https://www.youtube.com/embed/fOUh2u4VBAg?si=gNZs_uzNyuPeO5Kq",
+                  "https://www.youtube.com/embed/V5zlqF6lHTU?si=O7-wTNngOOjUg05r"];
 
+
+  var videoNames8 = ["L 8.1 private and public","L 8.2 this parameter","L 8.3 constructor"];
+
+
+
+  var videoLinks9 = ["","","https://www.youtube.com/embed/E9YAZBZO5KM?si=vi33mGEubhGA5g60"];
+
+
+  var videoNames9 = ["L 9.1 ","L 9.2 ","L 9.3 Static variable and math methods"];
+
+
+  var videoLinks10 = ["https://www.youtube.com/embed/zAqcgnDowfY?si=wPKn6ByBbgdPDmpO","https://www.youtube.com/embed/qph3JwIHAn8?si=0yM1CWUFCR-QmAnA",
+                      "https://www.youtube.com/embed/TSTE8LIIWpU?si=cx6faPS5n5kO5mvW"];
+
+
+  var videoNames10 = ["L 10.1 Array","L 10.2 ِ array ","L 10.3 Array operation "];
+
+
+  
+  var videoLinks11 = ["https://www.youtube.com/embed/XtWFkyaxRQk?si=PcDixfW-T9rYFt3a","https://www.youtube.com/embed/FTLShrMiUec?si=i_1UKrDQnYqJoweE"];
+
+
+  var videoNames11 = ["L 11.1 sorting , enumerated","L 11.2 ِ 2-D arrays "];
 
 
 //###########################################    A Lectuers   ###########################################
