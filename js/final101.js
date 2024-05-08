@@ -111,10 +111,11 @@ var AssNames = [ "Assignment 1" ];
 
 
   
- var BankLinks = [""];
+ var BankLinks = ["https://www.youtube.com/embed/TraeYWjfXhU?si=dqCByGpl9Sg9LXmb","https://www.youtube.com/embed/k2m0_k2DrGQ?si=L6WGm_-Nrfn0akUN",
+                 "https://www.youtube.com/embed/sPtZoO3D8_A?si=6houJ290YB8vFLTP"];
 
 
-var BankNames = ["mid 1 | ميد سابق"];
+var BankNames = ["حل فاينال 2024 CSCE101","شرح نماذج سابقة" , "شرح بعض الميد مع سؤال فاينال المصفوفات" ];
 
 
 
