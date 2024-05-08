@@ -238,7 +238,11 @@ var OvideoNames3 = [ "CH 3 part 1 flow of control and if else","CH 3 part 2 Nest
 var OvideoNames4 = [ "CH 4 part 1 Class and object","CH 4 part 2 void and return type methods","CH 4 part 3 local variables and parameter and  this keyword",
                    "CH 4 part 4 Encapsulation and overloading","CH 4 part 5 equals and toString methods and constructor"];
 
+  var OvideoLinks5 = ["https://www.youtube.com/embed/-xXixQxaSe4?si=ANwKh_Y6SdRZhMuu","https://www.youtube.com/embed/mlRFIxSw2oU?si=KBB8V3r9yPkvjho8",
+                     "https://www.youtube.com/embed/VE19YJt8IBo?si=N9CyR2haOLyvTAS_"];
 
+
+var OvideoNames5 = [ "CH 5 part 1 Static methods","CH 5 part 2 Static variables","CH 5 part 3 Math class" ];
 
 
 
@@ -979,6 +983,7 @@ const CH1 = document.querySelector("#CH1");
 const CH2 = document.querySelector("#CH2");
 const CH3 = document.querySelector("#CH3");
 const CH4 = document.querySelector("#CH4");
+const CH5 = document.querySelector("#CH5");
 const CH6 = document.querySelector("#CH6");
 
 
@@ -1032,5 +1037,19 @@ const CH6 = document.querySelector("#CH6");
   
   });
 
+
+
+
+
+ CH5.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = OvideoLinks5;
+    videoNames = OvideoNames5 ;
+   
   
+  window.onload();
+  
+  });
 });
