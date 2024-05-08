@@ -4,15 +4,15 @@
 
 
 $(document).ready(function() {
-   var videoLinks = [""];
+   var videoLinks = ["https://www.youtube.com/embed/TRfCDM7QOZw?si=Nzry8kR5a4vDSw7f"];
 
 
-  var videoNames = [ "CH 1.1 Quiz "];
+  var videoNames = [ "CH 6 Quiz Array "];
 
-   var videoLinks1 = [""];
+   var videoLinks1 = ["https://www.youtube.com/embed/TRfCDM7QOZw?si=Nzry8kR5a4vDSw7f"];
 
 
-  var videoNames1 = [ "CH 1.1 Quiz "];
+  var videoNames1 = [ "CH 6 Quiz Array "];
 
 
 
