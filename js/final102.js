@@ -3,15 +3,15 @@
 
 
 $(document).ready(function() {
-   var videoLinks = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH"];
+   var videoLinks = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY"];
 
 
-  var videoNames = [ "L6 Quiz "];
+  var videoNames = [ "L6 Quiz ","Quiz 8 Exception handling"];
 
-   var videoLinks1 = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH"];
+   var videoLinks1 = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY"];
 
 
-  var videoNames1 = [ "L6 Quiz "];
+  var videoNames1 = [ "L6 Quiz ","Quiz 8 Exception handling"];
 
 
 
