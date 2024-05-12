@@ -93,10 +93,10 @@ var HvideoNames = [""];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/41mdoTZZEs4?si=-beVE99Lw6j-ZnwF"];
+ var RelzLinks = ["https://www.youtube.com/embed/41mdoTZZEs4?si=-beVE99Lw6j-ZnwF","https://www.youtube.com/embed/LAYnwsXTbOQ?si=LWwSx_45skg_pMvX"];
 
 
-var RelzNames = [ "L6 convert UML to java code" ];
+var RelzNames = [ "L6 convert UML to java code" , "L8 rivew exception handling"];
 
 
 
