@@ -3,15 +3,17 @@
 
 
 $(document).ready(function() {
-   var videoLinks = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY"];
+   var videoLinks = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY",
+                    "https://www.youtube.com/embed/xUc2HuFYvVc?si=PT8FjE4In7a6UvJU"];
 
 
-  var videoNames = [ "L6 Quiz ","Quiz 8 Exception handling"];
+  var videoNames = [ "L6 Quiz ","Quiz 8 Exception handling","Quiz 9 File handling"];
 
-   var videoLinks1 = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY"];
+   var videoLinks1 = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY",
+                     "https://www.youtube.com/embed/xUc2HuFYvVc?si=PT8FjE4In7a6UvJU"];
 
 
-  var videoNames1 = [ "L6 Quiz ","Quiz 8 Exception handling"];
+  var videoNames1 = [ "L6 Quiz ","Quiz 8 Exception handling","Quiz 9 File handling"];
 
 
 
@@ -93,17 +95,18 @@ var HvideoNames = [""];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/41mdoTZZEs4?si=-beVE99Lw6j-ZnwF","https://www.youtube.com/embed/LAYnwsXTbOQ?si=LWwSx_45skg_pMvX"];
+ var RelzLinks = ["https://www.youtube.com/embed/41mdoTZZEs4?si=-beVE99Lw6j-ZnwF","https://www.youtube.com/embed/LAYnwsXTbOQ?si=LWwSx_45skg_pMvX",
+                 "https://www.youtube.com/embed/an2MSoJ-tQ4?si=SBrdO55R9lNKC5Ck"];
 
 
-var RelzNames = [ "L6 convert UML to java code" , "L8 rivew exception handling"];
+var RelzNames = [ "L6 convert UML to java code" , "L8 rivew exception handling", "L9 rivew File handling"];
 
 
 
- var AssLinks = [""];
+ var AssLinks = ["https://www.youtube.com/embed/bvCvjqOhTcQ?si=rQ1M86SBxYMvM_Q0"];
 
 
-var AssNames = [ "" ];
+var AssNames = [ "throw and throws" ];
 
 
 
