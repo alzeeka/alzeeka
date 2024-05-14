@@ -39,12 +39,13 @@ var AvideoNames = [
 
 
 
- var AvideoLinks1 = ["https://www.youtube.com/embed/y2IbnL3XlFU?si=eUiW0bwF6-78NPyf"
+ var AvideoLinks1 = ["https://www.youtube.com/embed/y2IbnL3XlFU?si=eUiW0bwF6-78NPyf","https://www.youtube.com/embed/h46uEDkFdGk?si=qJBKwFjC7zulV0xs"
 ];
 
 
 var AvideoNames1 = [ 
   " كويز الترم4 " 
+  , " كويز الترم5  " 
 ];
 
 
