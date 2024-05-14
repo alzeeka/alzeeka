@@ -98,10 +98,10 @@ var HvideoNames = [""];
 
  var RelzLinks = ["https://www.youtube.com/embed/41mdoTZZEs4?si=-beVE99Lw6j-ZnwF","https://www.youtube.com/embed/LAYnwsXTbOQ?si=LWwSx_45skg_pMvX",
                  "https://www.youtube.com/embed/an2MSoJ-tQ4?si=SBrdO55R9lNKC5Ck","https://www.youtube.com/embed/bvCvjqOhTcQ?si=YOJaL98Jta8q4H8y",
-                 "https://www.youtube.com/embed/-MkS1-_XcIg?si=5HzErxKj4HcpL7MS"];
+                 "https://www.youtube.com/embed/-MkS1-_XcIg?si=5HzErxKj4HcpL7MS","https://www.youtube.com/embed/dKOFypf1tic?si=F4ukzLbitnchtOvM"];
 
 
-var RelzNames = [ "L6 convert UML to java code" , "L8 rivew exception handling", "L9 rivew File handling","throw and throws","Final exercises"];
+var RelzNames = [ "L6 convert UML to java code" , "L8 rivew exception handling", "L9 rivew File handling","throw and throws","Final exercises", "L10 rivew ArrayList"];
 
 
 
