@@ -4,16 +4,16 @@
 
 $(document).ready(function() {
    var videoLinks = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY",
-                    "https://www.youtube.com/embed/xUc2HuFYvVc?si=PT8FjE4In7a6UvJU"];
+                    "https://www.youtube.com/embed/xUc2HuFYvVc?si=PT8FjE4In7a6UvJU","https://www.youtube.com/embed/ffIEYhjuSkQ?si=PWFVmtfBbzVZaqu3"];
 
 
-  var videoNames = [ "L6 Quiz ","Quiz 8 Exception handling","Quiz 9 File handling"];
+  var videoNames = [ "L6 Quiz ","Quiz 8 Exception handling","Quiz 9 File handling","Quiz 10 wrapper class and arrayList"];
 
    var videoLinks1 = ["https://www.youtube.com/embed/6pggef8Y0q0?si=08LDGEoZIwkITBwH","https://www.youtube.com/embed/BPBAzuDP54M?si=-7eawr6-m_CFn3uY",
-                     "https://www.youtube.com/embed/xUc2HuFYvVc?si=PT8FjE4In7a6UvJU"];
+                     "https://www.youtube.com/embed/xUc2HuFYvVc?si=PT8FjE4In7a6UvJU","https://www.youtube.com/embed/ffIEYhjuSkQ?si=PWFVmtfBbzVZaqu3"];
 
 
-  var videoNames1 = [ "L6 Quiz ","Quiz 8 Exception handling","Quiz 9 File handling"];
+  var videoNames1 = [ "L6 Quiz ","Quiz 8 Exception handling","Quiz 9 File handling","Quiz 10 wrapper class and arrayList"];
 
 
 
@@ -96,10 +96,11 @@ var HvideoNames = [""];
 
 
  var RelzLinks = ["https://www.youtube.com/embed/41mdoTZZEs4?si=-beVE99Lw6j-ZnwF","https://www.youtube.com/embed/LAYnwsXTbOQ?si=LWwSx_45skg_pMvX",
-                 "https://www.youtube.com/embed/an2MSoJ-tQ4?si=SBrdO55R9lNKC5Ck"];
+                 "https://www.youtube.com/embed/an2MSoJ-tQ4?si=SBrdO55R9lNKC5Ck","https://www.youtube.com/embed/bvCvjqOhTcQ?si=YOJaL98Jta8q4H8y",
+                 "https://www.youtube.com/embed/-MkS1-_XcIg?si=5HzErxKj4HcpL7MS"];
 
 
-var RelzNames = [ "L6 convert UML to java code" , "L8 rivew exception handling", "L9 rivew File handling"];
+var RelzNames = [ "L6 convert UML to java code" , "L8 rivew exception handling", "L9 rivew File handling","throw and throws","Final exercises"];
 
 
 
