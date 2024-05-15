@@ -15,13 +15,15 @@ const ESM = ["70a31025536e28676c7985e40d40badf","cd73502828457d15655bbd7a63fb0bc
              "157fcd7808a342b2ec744ce626ef4a2d","94b3466854b33ee389b78b9f4a6e795d","3df1af7feea931e92e4bd8ef891f2a2b","d7373b9740b8b243ee798d1fd3504905",
              "4d605e048b4c5901f554d33029cf4207","c64489c995349b2b26b446e10f6d0796","cbcb799203788abdd1104ff4c79c6766","fa2a413f3fdc791511abbbc542c499c1",
             "241cfe97750e3a9dbeadc9e1fc77da00","7e63c25a9568fcba975346dc5ac538c2","25f82abb711bfa0826c2d6fc0a88d809","e476e3f4deaefa0876b152ac0335383f",
-            "594c767d6bde88e79f3e268c1e0cad2f","4d1770be8395e0d252b146d3080cc7d3","4a2e87869ba1bacd91423f78123c2eda","dbbbc9060803da37e506e43748d20dd1"];
+            "594c767d6bde88e79f3e268c1e0cad2f","4d1770be8395e0d252b146d3080cc7d3","4a2e87869ba1bacd91423f78123c2eda","dbbbc9060803da37e506e43748d20dd1",
+            "d71fc177607ca84f8c97087a72d72485"];
 
 
 const KLM = ["CSCE101","CSCE101", "CSCE102","CSCE102","CSCE102","CSCE102","CSCE102","CSCE102",
              "CSCE102","CSCE102","CSCE101","CSCE101","CSCE102","CSCE102","CSCE102","CSCE101",
              "CSCE102","CSCE102","CSCE102","CSCE101","mid102","CSCE101","CSCE101","CSCE101",
-            "CSCE102","mid101","mid102","mid101","mid102","CSCE101","final102","final102","final102","final102","final102","final102"];
+            "CSCE102","mid101","mid102","mid101","mid102","CSCE101","final102","final102",
+             "final102","final102","final102","final102","final101"];
 
 
 
