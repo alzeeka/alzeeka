@@ -247,7 +247,7 @@ var OvideoNames5 = [ "CH 5 part 1 Static methods","CH 5 part 2 Static variables"
 var OvideoLinks6 = ["https://www.youtube.com/embed/5Ztl2sMq8Vs?si=oJTmPNpUjtj8QVvY","https://www.youtube.com/embed/DjM999N2sss?si=eNF9kXrn0Sh0HAfl" ];
 
 
-var OvideoNames6 = [ "CH 6 part Array","CH 6 part 2 part 2 array and Pitfalls"];
+var OvideoNames6 = [ "CH 6 part 1 Array","CH 6 part 2 array and Pitfalls"];
 
 //###########################################    Homework   ###########################################
 //###########################################    Homework   ###########################################
@@ -1054,7 +1054,7 @@ const CH6 = document.querySelector("#CH6");
   
   window.onload();
   
-  });
+ 
 });
 
 
