@@ -95,10 +95,11 @@ var HvideoNames = [""];
 //###########################################################################################################
 
 
- var RelzLinks = ["https://www.youtube.com/embed/5GXMdkOOLr8?si=D_c0cs68HjU_jsSs"];
+ var RelzLinks = ["https://www.youtube.com/embed/5GXMdkOOLr8?si=D_c0cs68HjU_jsSs","https://www.youtube.com/embed/_G6e4conEvI?si=1vn2R29IAncnwBcZ",
+                 "https://www.youtube.com/embed/-NNSO54j8yg?si=BomtT29eBFbMBLqH"];
 
 
-var RelzNames = [ "حل تمارين | Array 1" ];
+var RelzNames = [ "حل تمارين | Array 1" , "void VS return type methods", "شرح سريع CH 4" ];
 
 
 
@@ -112,10 +113,12 @@ var AssNames = [ "Assignment 1" ];
 
   
  var BankLinks = ["https://www.youtube.com/embed/TraeYWjfXhU?si=dqCByGpl9Sg9LXmb","https://www.youtube.com/embed/k2m0_k2DrGQ?si=L6WGm_-Nrfn0akUN",
-                 "https://www.youtube.com/embed/sPtZoO3D8_A?si=6houJ290YB8vFLTP"];
+                 "https://www.youtube.com/embed/sPtZoO3D8_A?si=6houJ290YB8vFLTP","https://www.youtube.com/embed/OFDa_ZcFPw8?si=uSvJGNt9xxY3JhBs",
+                "https://www.youtube.com/embed/xCTQpq9c0rI?si=dnHzYvdWZxaYokWf","https://www.youtube.com/embed/bbQQ5XvwZB4?si=0U_1I-H6e7CfOI8x",
+                 "https://www.youtube.com/embed/mT5jBU3sixg?si=vL6xBhqN1JLrMLJs"];
 
 
-var BankNames = ["حل فاينال 2024 CSCE101","شرح نماذج سابقة" , "شرح بعض الميد مع سؤال فاينال المصفوفات" ];
+var BankNames = ["حل فاينال 2024 CSCE101","شرح نماذج سابقة" , "شرح بعض الميد مع سؤال فاينال المصفوفات" ,"final 2023 part 1","final 2023 part 2","final ICS part 1","final ICS part 2" ];
 
 
 
