@@ -7,9 +7,9 @@ $(document).ready(function() {
    var videoLinks = ["https://www.youtube.com/embed/8xBY6UMP7qs?si=NJ2xCwWlfWPVB8I5" ,"https://www.youtube.com/embed/8HJZ70S7orE?si=UO3v6kONXUlnTYL5", "https://www.youtube.com/embed/TRfCDM7QOZw?si=Nzry8kR5a4vDSw7f"];
 
 
-  var videoNames = [ "CH 3 Quiz Branching ","CH 3 Quiz Looping " , "https://www.youtube.com/embed/8HJZ70S7orE?si=UO3v6kONXUlnTYL5" , "CH 6 Quiz Array "];
+  var videoNames = [ "CH 3 Quiz Branching ","CH 3 Quiz Looping " ,  "CH 6 Quiz Array "];
 
-   var videoLinks1 = ["https://www.youtube.com/embed/8xBY6UMP7qs?si=NJ2xCwWlfWPVB8I5", "https://www.youtube.com/embed/TRfCDM7QOZw?si=Nzry8kR5a4vDSw7f"];
+   var videoLinks1 = ["https://www.youtube.com/embed/8xBY6UMP7qs?si=NJ2xCwWlfWPVB8I5" ,"https://www.youtube.com/embed/8HJZ70S7orE?si=UO3v6kONXUlnTYL5", "https://www.youtube.com/embed/TRfCDM7QOZw?si=Nzry8kR5a4vDSw7f"];
 
 
   var videoNames1 = [ "CH 3 Quiz Branching ","CH 3 Quiz Looping " , "CH 6 Quiz Array "];
