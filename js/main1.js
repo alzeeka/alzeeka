@@ -1056,3 +1056,17 @@ const CH6 = document.querySelector("#CH6");
   
   });
 });
+
+
+ CH6.addEventListener("click", function() {
+    HomeWork.style.display="none"; 
+    videoRow.innerHTML = "";
+    Files.innerHTML="";
+    videoLinks = OvideoLinks6;
+    videoNames = OvideoNames6 ;
+   
+  
+  window.onload();
+  
+  });
+});
