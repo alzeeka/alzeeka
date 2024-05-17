@@ -244,7 +244,10 @@ var OvideoNames4 = [ "CH 4 part 1 Class and object","CH 4 part 2 void and return
 
 var OvideoNames5 = [ "CH 5 part 1 Static methods","CH 5 part 2 Static variables","CH 5 part 3 Math class" ];
 
+var OvideoLinks6 = ["https://www.youtube.com/embed/5Ztl2sMq8Vs?si=oJTmPNpUjtj8QVvY","https://www.youtube.com/embed/DjM999N2sss?si=eNF9kXrn0Sh0HAfl" ];
 
+
+var OvideoNames6 = [ "CH 6 part Array","CH 6 part 2 part 2 array and Pitfalls"];
 
 //###########################################    Homework   ###########################################
 //###########################################    Homework   ###########################################
