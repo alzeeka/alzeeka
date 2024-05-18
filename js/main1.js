@@ -86,10 +86,11 @@ var videoLinks8 = ["https://www.youtube.com/embed/AHkJqqzpWrU?si=bTnWS1avO-s_fYJ
 
 
 
-  var videoLinks9 = ["","","https://www.youtube.com/embed/E9YAZBZO5KM?si=vi33mGEubhGA5g60"];
+  var videoNames9 = ["https://www.youtube.com/embed/-xXixQxaSe4?si=ANwKh_Y6SdRZhMuu","https://www.youtube.com/embed/mlRFIxSw2oU?si=KBB8V3r9yPkvjho8",
+                     "https://www.youtube.com/embed/VE19YJt8IBo?si=N9CyR2haOLyvTAS_"];
 
 
-  var videoNames9 = ["L 9.1 ","L 9.2 ","L 9.3 Static variable and math methods"];
+var videoNames9 = [ "L 9 part 1 Static methods","L 9 part 2 Static variables","L 9 part 3 Math class" ];
 
 
   var videoLinks10 = ["https://www.youtube.com/embed/zAqcgnDowfY?si=wPKn6ByBbgdPDmpO","https://www.youtube.com/embed/qph3JwIHAn8?si=0yM1CWUFCR-QmAnA",
