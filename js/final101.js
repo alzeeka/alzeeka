@@ -34,12 +34,12 @@ $(document).ready(function() {
 //###########################################################################################################
 //###########################################################################################################
 
- var AvideoLinks = ["https://www.youtube.com/embed/mFwTJadO8WA?si=gr4Ue-FSDYDjLKyF"
+ var AvideoLinks = ["https://www.youtube.com/embed/mFwTJadO8WA?si=gr4Ue-FSDYDjLKyF" , "https://www.youtube.com/embed/uuF29Ok0_og?si=wdmN9CAIVUwk-CUu"
 ];
 
 
 var AvideoNames = [ 
-  " جميع كويزات الترم" 
+  " جميع كويزات الترم" , "Quiz term 2024"
 ];
 
 
