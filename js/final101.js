@@ -98,10 +98,10 @@ var HvideoNames = [""];
 
 
  var RelzLinks = ["https://www.youtube.com/embed/5GXMdkOOLr8?si=D_c0cs68HjU_jsSs","https://www.youtube.com/embed/_G6e4conEvI?si=1vn2R29IAncnwBcZ",
-                 "https://www.youtube.com/embed/-NNSO54j8yg?si=BomtT29eBFbMBLqH"];
+                 "https://www.youtube.com/embed/-NNSO54j8yg?si=BomtT29eBFbMBLqH","https://www.youtube.com/embed/RUwOUuRkx_s?si=S9BLzsSJ6vEKT9Um"];
 
 
-var RelzNames = [ "حل تمارين | Array 1" , "void VS return type methods", "شرح سريع CH 4" ];
+var RelzNames = [ "حل تمارين | Array 1" , "void VS return type methods", "شرح سريع CH 4","مراجعة مهمة" ];
 
 
 
